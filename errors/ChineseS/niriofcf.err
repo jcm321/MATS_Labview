@@ -1,0 +1,224 @@
+<?xml version="1.0">
+<nidocument>
+<nicomment>
+<nifamily displayname="NI-RIO" familyname="NI-RIO">
+</nifamily>
+</nicomment>
+<nierror code="-63199">
+会话无法打开，因为具有不同比特文件的另一个会话已经在设备上打开。打开新会话前请先关闭当前会话。
+</nierror>
+<nierror code="-63198">
+系统资源不足。关闭会话并再试一次。
+</nierror>
+<nierror code="-63197">
+指定的属性值无效。
+</nierror>
+<nierror code="-63196">
+指定的属性无效。
+</nierror>
+<nierror code="-63195">
+用于设备通信的句柄无效或已被关闭。重启该应用程序。
+</nierror>
+<nierror code="-63194">
+终端系统上的NI-RIO软件与此软件不兼容。请升级终端系统的NI-RIO软件。
+</nierror>
+<nierror code="-63193">
+不支持请求的组件。
+</nierror>
+<nierror code="-63192">
+未找到指定设备。通过MAX或System Designer查找所需设备的正确资源名称。
+</nierror>
+<nierror code="-63189">
+提供的搜索模式无效。
+</nierror>
+<nierror code="-63188">
+现已不支持该操作。
+</nierror>
+<nierror code="-63187">
+该远程系统不支持连接至其他远程系统。
+</nierror>
+<nierror code="-63184">
+所选比特文件所需的驱动无法加载或为无效驱动。使用MAX为您的终端安装所有必需的软件。请注意，如果您的项目包括机箱项目下的模块、用户定义的变量或对“扫描时钟机箱I/O”项的引用，则必须将NI-RIO IO Scan软件安装到终端。
+</nierror>
+<nierror code="-63183">
+指定的端口无效。RIO服务器端口必须位于0至65535之间，其中0表示动态分配的端口。端口3580已被预留并且无法使用。
+</nierror>
+<nierror code="-63182">
+指定的设备访问设置无效。RIO设备的访问模式仅允许包含字母数字、'-'、'_'、'.'和'*'。
+</nierror>
+<nierror code="-63181">
+未找到提供的别名。
+</nierror>
+<nierror code="-63180">
+别名无效。有效的别名必须满足下列条件：
+
+1) 不能是预留字或包含预留字。
+2) 只能使用字母、连字符和下划线。
+3) 不能与其他设备的默认别名重复。默认别名是在用户未通过MAX或系统配置API给系统分配自定别名的情况下，NI-RIO设备驱动基于其属性分配给设备的名称。例如，'PXI1Slot3'是位于PXI机箱1、插槽3的设备的默认别名，该别名不能被用于其他设备。别名的详细信息见LabVIEW帮助 (NI-RIO)。
+</nierror>
+<nierror code="-63171">
+设备已经关闭，以免FPGA温度过高。请检查通风和冷却，并重启系统。对FPGA温度、温度关闭阈值和FPGA富余量进行监控可避免此错误。如有必要，可降低FPGA温度。
+</nierror>
+<nierror code="-63170">
+设备已经关闭，以免电源能耗过高。请检查通风和冷却，并重启系统。对电源能耗、电源关闭阈值和设备富余量进行监控可避免此错误。如有必要，可降低FPGA电源能耗。
+</nierror>
+<nierror code="-63160">
+必须先将比特文件下载到FPGA设备的闪存中，然后才能设置比特文件的自动加载时间。下载比特文件至闪存，然后重试。
+</nierror>
+<nierror code="-63150">
+发生未指定的硬件错误。无法完成该操作。
+</nierror>
+<nierror code="-63107">
+尝试使用的比特文件与终端和/或主机上安装的NI-RIO版本不兼容。请将终端和/或主机上的NI-RIO版本更新至用于编译比特文件的相同（或更高）版本。或者可以使用终端和/或主机上目前已安装的NI-RIO相同版本对比特文件进行重新编译。
+</nierror>
+<nierror code="-63106">
+指定的比特文件不是用于生成C API的比特文件。指定原始比特文件，或为该比特文件重新生成C API。
+</nierror>
+<nierror code="-63105">
+C/C++标识符"%s"已被使用，因此无法创建。
+</nierror>
+<nierror code="-63104">
+无法将"%s"转换为有效的C/C++标识符。
+</nierror>
+<nierror code="-63103">
+忽略前缀无效。前缀必须只包含字母数字和下划线。
+</nierror>
+<nierror code="-63102">
+输出目录无效。
+</nierror>
+<nierror code="-63101">
+需要有效的.lvbitx比特文件。如果使用的是有效的.lvbitx比特文件，该比特文件可能与正在使用的软件不兼容。确定生成该比特文件所使用的LabVIEW版本，将软件更新为该版本或更高版本并再试一次。
+</nierror>
+<nierror code="-63100">
+使用无效。语法必须为：
+
+capigen.exe [-e] [<bitfile> [<output_directory> [<prefix_override>]]]
+</nierror>
+<nierror code="-63088">
+无法从选定的FIFO获取更多区域。释放一些区域，然后重试。
+</nierror>
+<nierror code="-63087">
+被调用的函数与指定属性的数据类型不匹配。确保为该属性调用正确的函数。
+</nierror>
+<nierror code="-63086">
+FIFO运行时不能使用调用的FIFO函数。要使用此功能，请确保FIFO已停止。
+</nierror>
+<nierror code="-63085">
+FPGA读取/写入控制函数正在访问的输入控件或显示控件的数据已超过当前终端支持的最大大小。关于该终端的数据类型限制，请参阅硬件文档。
+</nierror>
+<nierror code="-63084">
+调用函数时使用了错位的地址。地址必须是数据类型大小的倍数。
+</nierror>
+<nierror code="-63083">
+主机获取FIFO元素时调用了配置FIFO、停止FIFO、读取FIFO或写入FIFO函数。在配置、停止、读取或写入之前释放所有获取的元素。
+</nierror>
+<nierror code="-63082">
+由于其他会话正在访问FIFO，将无法完成该操作。关闭其他会话并再试一次。
+</nierror>
+<nierror code="-63081">
+调用方无法分配内存缓冲区。
+</nierror>
+<nierror code="-63080">
+分配的缓冲区太小。
+</nierror>
+<nierror code="-63073">
+指定事件未在指定的时间周期（单位为毫秒）内发生。请延长时间周期，如结果为预期则可忽略。
+</nierror>
+<nierror code="-63072">
+未启用指定的RIO事件用于该会话。在中止操作导致该错误后，尝试使用等待IRQ方法。
+</nierror>
+<nierror code="-63071">
+已启用指定的RIO事件用于该会话。
+</nierror>
+<nierror code="-63070">
+指定的事件类型无效。
+</nierror>
+<nierror code="-63052">
+不支持或未启用触发线。对于PXI，可通过MAX识别控制器和机箱。
+</nierror>
+<nierror code="-63051">
+当前会话未保留指定的触发线。
+</nierror>
+<nierror code="-63050">
+指定的触发线已被保留。查看MAX触发设置或系统内各个设备保留的触发。
+</nierror>
+<nierror code="-63045">
+使用远程RIO会话时不支持所请求的功能。
+
+将资源字符串指定为rio://<主机名>/<设备名>时，会打开远程RIO会话。  只指定<设备名>时可打开一个本地会话。
+</nierror>
+<nierror code="-63044">
+指定的远程设备无法找到RIO服务器。确保已安装NI-RIO软件，并且RIO服务器已被正确配置和运行。
+
+对于NI-RIO 2.3和更高版本，请参考MAX中系统的软件>>NI-RIO>>NI-RIO设置。
+对于NI-RIO 2.3之前的版本，请参考MAX中系统的软件>>NI-VISA>>VISA选项。
+</nierror>
+<nierror code="-63043">
+会话无效。终端重置或重启，或由于处理器被过度占用引起网络连接超时。检查网络连接、降低处理器的使用量和降低失败操作的超时时间。如问题仍然存在，请访问ni.com/info并输入信息代码expd6p。
+</nierror>
+<nierror code="-63042">
+网络错误导致该操作失败。
+</nierror>
+<nierror code="-63041">
+由于远程设备错误，与远程设备的连接已断开。请重新尝试该操作。如远程设备仍存在该错误，可检查其电源并查看控制器的诊断信息。
+</nierror>
+<nierror code="-63040">
+无法与指定的远程设备建立连接。确保已打开该设备并可通过网络访问，同时设备未处于安全模式且已安装NI-RIO软件，以及RIO服务器已被正确配置和运行。
+
+对于NI-RIO 2.3和更高版本，可查看MAX中系统的软件>>NI-RIO>>NI-RIO设置。
+对于NI-RIO 2.3前期版本，可查看MAX中系统的软件>>NI-VISA>>VISA选项。
+</nierror>
+<nierror code="-63038">
+主机上的NI-RIO软件与终端上的软件不兼容。升级主机上的NI-RIO软件，以连接到该终端。
+</nierror>
+<nierror code="-63036">
+无法完成操作，因为被访问的设备不可用，原因是其与网络断开连接，或者由于电源被移除（例如，系统进入低功耗状态）。关闭全部RIO FPGA会话；检查网络、USB和电源连接；必要时重新启动设备；开始新的RIO会话。
+</nierror>
+<nierror code="-63035">
+驱动尚未完成初始化，打开RIO会话失败。
+</nierror>
+<nierror code="-63033">
+远程系统拒绝访问。如尝试连接RT终端，在远程系统上选择“软件>>推荐软件（例如，NI CompactRIO）>>NI-RIO>>NI-RIO设置”，通过MAX检查远程设备访问设置。如果您尝试连接到桌面Linux终端，请检查Linux目终端/etc/natinst/nirio/nirio.ini中的设置。
+</nierror>
+<nierror code="-63031">
+由于其他会话正在访问该设备，将无法完成该操作。关闭所有其他会话并再试一次。
+</nierror>
+<nierror code="-63030">
+由于设备重新配置，该操作失败。不支持FPGA设备的多个会话。关闭其他会话并再试一次。
+</nierror>
+<nierror code="-63003">
+NI-RIO驱动程序无法为FIFO分配内存。当所有DMA FIFO的组合深度超过控制器的最大深度时，或者当控制器耗尽系统内存时，可能会发生这种情况。您可以使用更大的最大FIFO深度重新配置控制器。如需更多信息，请查看NI知识库文章65OF2ERQ。
+</nierror>
+<nierror code="-63002">
+指定的DMA FIFO深度大于此系统支持的最大大小。
+</nierror>
+<nierror code="-63001">
+该远程系统不支持从主机到FPGA终端的DMA。可使用其他I/O方法或更改与该FPGA终端关联的控制器。
+</nierror>
+<nierror code="63033">
+远程系统拒绝访问。如尝试连接RT终端，在远程系统上选择“软件>>推荐软件（例如，NI CompactRIO）>>NI-RIO>>NI-RIO设置”，通过MAX检查远程设备访问设置。如果您尝试连接到桌面Linux终端，请检查Linux目终端/etc/natinst/nirio/nirio.ini中的设置。
+</nierror>
+<nierror code="63046">
+该RIO会话已作为远程会话打开，而对象是本地机器上的RIO终端。  NI建议使用本地会话，因为远程会话需使用网络通信。因此，设计使用远程RIO连接的应用程序时，需考虑网络因素。
+
+将资源字符串指定为rio://<主机名>/<设备名>时，会打开远程RIO会话。  只指定<设备名>时可打开一个本地会话。如需更多信息，请访问：https://knowledge.ni.com/KnowledgeArticleDetails?id=kA00Z0000004BIiSAM
+</nierror>
+<nierror code="63073">
+指定事件未在指定的时间周期（单位为毫秒）内发生。
+</nierror>
+<nierror code="63186">
+打开的RIO会话的数量超出建议限制。为获取更优性能，可关闭不再使用的RIO会话。
+</nierror>
+<nierror code="63188">
+现已不支持该操作。
+</nierror>
+<nierror code="63194">
+与主机相比，终端软件版本过旧但仍可兼容。升级终端软件以获取全部功能。
+</nierror>
+<nierror code="65004">
+连接至方法输入端的通道、插槽或连接器号是无效的。请更改方法输入，使其符合CompactRIO系统的配置。
+</nierror>
+<nierror code="65009">
+选定预留/取消预留的PXI触发是无效的。  有效的PXI触发在0到7之间，包括0和7。
+</nierror>
+</nidocument>

@@ -1,0 +1,224 @@
+<?xml version="1.0">
+<nidocument>
+<nicomment>
+<nifamily displayname="NI-RIO" familyname="NI-RIO">
+</nifamily>
+</nicomment>
+<nierror code="-63199">
+Die Session konnte nicht hergestellt werden, da eine andere Session mit einer anderen Bitdatei bereits mit dem Gerät arbeitet. Schließen Sie die aktuelle Session, bevor Sie eine neue beginnen.
+</nierror>
+<nierror code="-63198">
+Das System hat keine Ressourcen mehr. Schließen Sie eine Session und versuchen Sie es erneut.
+</nierror>
+<nierror code="-63197">
+Es wurde ein ungültiger Attributwert festgelegt.
+</nierror>
+<nierror code="-63196">
+Es wurde ein ungültiges Attribut angegeben.
+</nierror>
+<nierror code="-63195">
+Das Handle zur Gerätekommunikation ist ungültig oder wurde geschlossen. Starten Sie die Anwendung neu.
+</nierror>
+<nierror code="-63194">
+Die NI-RIO-Software auf dem Zielsystem ist nicht kompatibel mit dieser Software. Führen Sie ein Upgrade der NI-RIO-Software auf dem Zielsystem durch.
+</nierror>
+<nierror code="-63193">
+Die angegebene Funktion wird nicht unterstützt.
+</nierror>
+<nierror code="-63192">
+Das angegebene Gerät wurde nicht gefunden. Suchen Sie unter MAX oder SystemDesigner nach dem richtigen Ressourcennamen für das Gerät.
+</nierror>
+<nierror code="-63189">
+Das angegebene Suchmuster ist ungültig.
+</nierror>
+<nierror code="-63188">
+Dieser Vorgang wird nicht mehr unterstützt.
+</nierror>
+<nierror code="-63187">
+Das Netzwerksystem kann keine Verbindung zu anderen Netzwerksystemen herstellen.
+</nierror>
+<nierror code="-63184">
+Für die ausgewählte Bitdatei wird ein Treiber benötigt, der entweder ungültig ist oder nicht geladen werden konnte. Installieren Sie mit Hilfe des MAX alle erforderlichen Softwarekomponenten auf Ihrem Zielsystem. Wenn Ihr Projekt benutzerdefinierte Variablen, Referenzen auf das Objekt "Scan Clock Chassis I/O" oder Module unter der Kategorie "Chassis" enthält, müssen Sie NI-RIO IO Scan auf dem Zielsystem installieren.
+</nierror>
+<nierror code="-63183">
+Es wurde ein ungültiger Port angegeben. Der Port des RIO-Servers muss zwischen 0 und 65535 liegen, wobei 0 für eine dynamische Portauswahl steht. Der Port 3580 ist gesperrt und kann daher auch nicht reserviert werden.
+</nierror>
+<nierror code="-63182">
+Ungültige Zugriffseinstellung für ein Gerät. RIO-Strings zum Gerätezugriff dürfen nur alphanumerische Zeichen sowie Bindestriche (-) und Unterstriche (_) enthalten.
+</nierror>
+<nierror code="-63181">
+Der angegebene Alias wurde nicht gefunden.
+</nierror>
+<nierror code="-63180">
+Der Aliasname ist ungültig. Ein gültiger Aliasname muss die folgenden Bedingungen erfüllen:
+
+1) Kann kein reserviertes Wort sein oder enthalten.
+2) Kann nur alphanumerische Zeichen, Gedanken- und Unterstriche enthalten.
+3) Kann nicht mit dem Standard-Aliasnamen eines anderen Geräts im Konflikt stehen. Ein Standard-Aliasname ist der Name, der einem Gerät von einem NI-RIO-Gerätetreiber basierend auf den Attributen zugewiesen wird, wenn Sie dem Gerät im MAX oder mit der Systemkonfigurator-API keinen benutzerdefinierten Aliasnamen zugewiesen haben. So ist. z. B. 'PXI1Slot3' der Standard-Aliasname für das Gerät in Slot 3 des PXI-Chassis 1. Der Name kann für keine anderes Gerät als Alias verwendet werden. Weitere Informationen zu Aliasnamen finden Sie in der LabVIEW Help for NI-RIO.
+</nierror>
+<nierror code="-63171">
+Das Gerät wurde aufgrund übermäßiger Erhitzung des FPGA-Schaltkreises ausgeschaltet. Überprüfen Sie, ob für ausreichende Belüftung und Kühlung gesorgt ist, und starten Sie das System erneut. Zum Vermeiden dieses Fehlers überwachen Sie die FPGA-Temperatur, die Temperaturabschaltschwelle sowie die Toleranz des FPGAs. Verringern Sie bei Bedarf die Temperatur des FPGAs.
+</nierror>
+<nierror code="-63170">
+Das Gerät wurde wegen übermäßigen Energieverbrauchs heruntergefahren. Überprüfen Sie, ob für ausreichende Belüftung und Kühlung gesorgt ist, und starten Sie das System erneut. Überwachen Sie zur Vermeidung dieses Fehlers den Energieverbrauch des Geräts und passen Sie ggf. die Toleranz und die Abschaltschwelle für den Energieverbrauch des Geräts an. Verringern Sie erforderlichenfalls den Energieverbrauch des FPGAs.
+</nierror>
+<nierror code="-63160">
+Die Bitdatei muss auf den Flash-Speicher des FPGA-Geräts heruntergeladen werden, bevor der Zeitpunkt für das automatische Laden der Bitdatei festgelegt werden kann. Laden Sie die Bitdatei auf den Flash-Speicher und versuchen Sie es noch einmal.
+</nierror>
+<nierror code="-63150">
+Es trat ein unerwarteter Hardwarefehler auf. Der Vorgang konnte nicht beendet werden.
+</nierror>
+<nierror code="-63107">
+Die Bitdatei ist nicht mit der NI-RIO-Version der Zielhardware und/oder des Hosts kompatibel. Aktualisieren Sie die Version von NI-RIO auf dem Zielsystem und/oder auf dem Host auf die gleiche Version (oder höher), mit der die Bitdatei kompiliert wurde. Sie können auch die Bitdatei unter Verwendung der gleichen Version von NI-RIO, die derzeit auf dem Zielsystem und/oder auf dem Host installiert ist, erneut kompilieren.
+</nierror>
+<nierror code="-63106">
+Die angegebene Bitdatei ist nicht die Datei, mit der die C-API erzeugt wurde. Geben Sie die ursprüngliche Bitdatei an oder erzeugen Sie die C-API für diese Bitdatei.
+</nierror>
+<nierror code="-63105">
+Die Kennung für C/C++ "%s" wird bereits verwendet und konnte daher nicht erstellt werden.
+</nierror>
+<nierror code="-63104">
+"%s" konnte in keine gültige Kennung für C/C++ konvertiert werden.
+</nierror>
+<nierror code="-63103">
+Ungültiges Präfix. Präfixe dürfen nur aus alphanumerischen Zeichen und Unterstrichen bestehen.
+</nierror>
+<nierror code="-63102">
+Ungültiges Ausgabeverzeichnis.
+</nierror>
+<nierror code="-63101">
+Es wird eine gültige *.lvbitx-Bitdatei benötigt. Wenn Sie eine gültige *.lvbitx-Bitdatei verwenden, ist diese ggf. nicht kompatibel mit der Software. Stellen Sie die LabVIEW-Version fest, mit der die Bitdatei erstellt wurde, aktualisieren Sie Ihre Software und versuchen Sie es erneut.
+</nierror>
+<nierror code="-63100">
+Ungültige Verwendung. Die Syntax sollte wie folgt aussehen:
+
+capigen.exe [<bitfile> [<output_directory> [<prefix_override>]]]
+</nierror>
+<nierror code="-63088">
+Für den ausgewählten FIFO lassen sich nicht mehr Bereiche anfordern. Geben Sie einige Bereiche frei und versuchen Sie es erneut.
+</nierror>
+<nierror code="-63087">
+Die aufgerufene Funktion stimmt nicht mit dem Datentyp der angegebenen Eigenschaft überein. Vergewissern Sie sich, dass Sie die richtige Funktion für die Eigenschaft aufrufen.
+</nierror>
+<nierror code="-63086">
+Die FIFO-Funktion kann nicht verwendet werden, während der FIFO läuft. Um diese Funktion zu nutzen, muss der FIFO gestoppt sein.
+</nierror>
+<nierror code="-63085">
+Die Funktion zum Lesen/Schreiben von FPGA-Elementen greift auf ein Bedien- oder Anzeigeelement zu, dessen Daten die maximal unterstützte Größe der Daten auf dem aktuellen Zielsystem überschreitet. Weitere Informationen zu den Einschränkungen für bestimmte Datentypen auf diesem Zielsystem finden Sie in der Dokumentation der Hardware.
+</nierror>
+<nierror code="-63084">
+Eine Funktion wurde mit einer falsch ausgerichteten Adresse aufgerufen. Die Adresse muss ein Vielfaches der Datentypgröße sein.
+</nierror>
+<nierror code="-63083">
+Es wurde eine Funktion zum Konfigurieren, Stoppen, Lesen oder Schreiben des FIFOs aufgerufen, während der Host Elemente des FIFOs abgefragt hat. Geben Sie vor dem Konfigurieren, Stoppen, Lesen oder Schreiben alle erfassten Elemente frei.
+</nierror>
+<nierror code="-63082">
+Der Vorgang konnte nicht abgeschlossen werden, da der FIFO noch für eine andere Session genutzt wird. Schließen Sie die andere Session und versuchen Sie es erneut.
+</nierror>
+<nierror code="-63081">
+Die aufrufende Komponente hat keinen Speicherpuffer reserviert.
+</nierror>
+<nierror code="-63080">
+Der reservierte Puffer ist zu klein.
+</nierror>
+<nierror code="-63073">
+Das angegebene Ereignis ist nicht innerhalb des in Millisekunden angegebenen Zeitrahmens eingetreten. Vergrößern Sie die Zeitspanne oder ignorieren Sie das Ergebnis, wenn dieses Ergebnis erwartet wurde.
+</nierror>
+<nierror code="-63072">
+Das eingegebene RIO-Ereignis wurde nicht für diese Session aktiviert. Es wurde ein "Wait on IRQ" versucht, nachdem ein Abbruch diesen Fehler ausgelöst hatte.
+</nierror>
+<nierror code="-63071">
+Das angegebene RIO-Ereignis wurde bereits für diese Session aktiviert.
+</nierror>
+<nierror code="-63070">
+Der angegebene Ereignistyp ist ungültig.
+</nierror>
+<nierror code="-63052">
+Die Trigger-Leitungen werden entweder nicht unterstützt oder sind nicht aktiviert. Legen Sie bei PXI den Controller und das Chassis mit Hilfe des MAX fest.
+</nierror>
+<nierror code="-63051">
+Die angegebene Trigger-Leitung wurde in der aktuellen Session nicht reserviert.
+</nierror>
+<nierror code="-63050">
+Die angegebene Trigger-Leitung ist schon reserviert. Die Trigger-Einstellungen oder -Reservierungen aller Geräte im System sind dem MAX zu entnehmen.
+</nierror>
+<nierror code="-63045">
+Die gewünschte Funktion wird während einer über das Netzwerk ausgeführten Session nicht unterstützt.
+
+Eine Netzwerk-Session wird durch folgenden Ressourcen-String angezeigt: rio://<Host-Name>/<Gerätename>  Zum Herstellen einer lokalen Session wird nur der <Gerätename> benötigt.
+</nierror>
+<nierror code="-63044">
+Der RIO-Server konnte auf dem angegebenen Netzwerkgerät nicht gefunden werden. Vergewissern Sie sich, dass die NI-RIO-Software installiert ist und der NI-RIO-Server läuft und ordnungsgemäß konfiguriert ist.
+
+Zum Öffnen der Konfigurationseinstellungen klicken Sie bei NI-RIO-Versionen ab 2.3 im MAX auf Software>>NI-RIO>>NI-RIO Settings.
+In NI-RIO-Versionen vor 2.3 befinden sich die Einstellungen im MAX unter Software>>NI-VISA>>VISA Options.
+</nierror>
+<nierror code="-63043">
+Die Session ist ungültig. Das Zielsystem wurde möglicherweise zurückgesetzt oder neu gestartet oder die Netzwerkverbindung wurde aufgrund einer Überlastung des Prozessors beendet. Prüfen Sie die Netzwerkverbindung, reduzieren Sie die Prozessorauslastung und erhöhen Sie das Timeout für die fehlgeschlagene Operation. Sollte sich das Problem nicht beheben lassen, besuchen Sie ni.com/info und geben Sie den Infocode expd6p ein.
+</nierror>
+<nierror code="-63042">
+Der Vorgang ist aufgrund eines Netzwerkfehlers fehlgeschlagen.
+</nierror>
+<nierror code="-63041">
+Die Netzwerkverbindung mit dem Gerät wurde aufgrund eines Gerätefehlers unterbrochen. Versuchen Sie es erneut. Wenn das Netzwerkgerät diesen Fehler weiterhin anzeigt, sollten Sie das Netzgerät überprüfen und auf Diagnosemeldungen an der Konsole achten.
+</nierror>
+<nierror code="-63040">
+Mit dem angegebenen Netzwerkgerät konnte keine Verbindung hergestellt werden. Vergewissern Sie sich, dass das Gerät eingeschaltet und über das Netzwerk erreichbar ist, sich nicht im sicheren Modus befindet, die NI-RIO-Software installiert ist und der NI-RIO-Server läuft und ordnungsgemäß konfiguriert ist.
+
+Zum Öffnen der Konfigurationseinstellungen klicken Sie bei NI-RIO-Versionen ab 2.3 im MAX auf Software>>NI-RIO>>NI-RIO Settings.
+In NI-RIO-Versionen vor 2.3 befinden sich die Einstellungen im MAX unter Software>>NI-VISA>>VISA Options.
+</nierror>
+<nierror code="-63038">
+Die NI-RIO-Software auf dem Host ist nicht kompatibel mit der Software auf dem Zielsystem. Zum Herstellen einer Verbindung mit diesem Zielsystem muss die NI-RIO-Software auf dem Host aktualisiert werden.
+</nierror>
+<nierror code="-63036">
+Der Vorgang konnte nicht abgeschlossen werden, da das Gerät nicht zur Verfügung stand. Es wurde entweder vom Netzwerk oder der Stromversorgung getrennt. Schließen Sie alle RIO-FPGA-Sessions; prüfen Sie Netzwerk-, USB- und Stromversorgungsverbindungen; führen Sie bei Bedarf einen Kaltstart durch; öffnen Sie eine neue RIO-Session.
+</nierror>
+<nierror code="-63035">
+Der Versuch, eine RIO-Session zu öffnen, schlug fehl, da der Treiber noch nicht initialisiert wurde.
+</nierror>
+<nierror code="-63033">
+Der Zugriff auf das Netzwerksystem wurde verweigert. Wenn Sie eine Verbindung zu einem Real-Time-Zielsystem herstellen möchten, prüfen Sie im MAX unter Software>>[Empfohlenes Softwarepaket, z. B. "NI CompactRIO Version - Datum"]>>NI-RIO>>NI-RIO Settings die Einstellungen für den Gerätezugriff über ein Netzwerk. Wenn Sie eine Verbindung zu einem Linux-System herstellen möchten, prüfen Sie die Einstellungen in der Datei /etc/natinst/nirio/nirio.ini auf dem Linux-System.
+</nierror>
+<nierror code="-63031">
+Der Vorgang konnte nicht abgeschlossen werden, da das Gerät noch für eine andere Session genutzt wird. Schließen Sie alle anderen Sessions und versuchen Sie es erneut.
+</nierror>
+<nierror code="-63030">
+Operation ist aufgrund einer Geräte-Neukonfiguration fehlgeschlagen. Mehrere Sessions mit FPGA-Geräten sind nicht möglich. Schließen Sie die andere Session und versuchen Sie es erneut.
+</nierror>
+<nierror code="-63003">
+Der NI-RIO-Treiber konnte einem FIFO keinen Speicher zuweisen. Das kann vorkommen, wenn die kombinierte Tiefe aller DMA-FIFOs die maximale Tiefe für den Controller überschreitet oder, wenn der Controller zu wenig freien Systemspeicher hat. Möglicherweise können Sie die maximale FIFO-Tiefe des Controllers erhöhen. Weitere Informationen dazu finden Sie im KnowledgeBase-Artikel 65OF2ERQ.
+</nierror>
+<nierror code="-63002">
+Die angegebene DMA-FIFO-Tiefe überschreitet die von diesem System maximal unterstützte Größe.
+</nierror>
+<nierror code="-63001">
+DMA vom Host zum FPGA-Gerät wird für dieses Netzwerksystem nicht unterstützt. Verwenden Sie eine andere Übertragungsmethode oder wechseln Sie den Controller des FPGAs.
+</nierror>
+<nierror code="63033">
+Der Zugriff auf das Netzwerksystem wurde verweigert. Wenn Sie eine Verbindung zu einem Real-Time-Zielsystem herstellen möchten, prüfen Sie im MAX unter Software>>[Empfohlenes Softwarepaket, z. B. "NI CompactRIO Version - Datum"]>>NI-RIO>>NI-RIO Settings die Einstellungen für den Gerätezugriff über ein Netzwerk. Wenn Sie eine Verbindung zu einem Linux-System herstellen möchten, prüfen Sie die Einstellungen in der Datei /etc/natinst/nirio/nirio.ini auf dem Linux-System.
+</nierror>
+<nierror code="63046">
+Diese RIO-Session wurde als Netzwerk-Session hergestellt, gilt jedoch für ein RIO-Ziel auf dem lokalen Computer.  In diesem Fall wird empfohlen, mit einer lokale Session zu arbeiten, weil bei Netzwerk-Sessions Daten über das Netzwerk übertragen werden. Netzwerk-Sessions und die damit verbundenen technischen Aspekte kommen spielen in der Regel nur beim Programmieren einer Anwendung eine Rolle, die mit einem RIO-System an einem anderen Standort arbeitet.
+
+Eine Netzwerk-Session wird durch folgenden Ressourcen-String angezeigt: rio://<Host-Name>/<Gerätename>  Zum Herstellen einer lokalen Session wird nur der <Gerätename> benötigt. Weitere Informationen finden Sie hier: https://knowledge.ni.com/KnowledgeArticleDetails?id=kA00Z0000004BIiSAM
+</nierror>
+<nierror code="63073">
+Das angegebene Ereignis ist nicht innerhalb des in Millisekunden angegebenen Zeitrahmens eingetreten.
+</nierror>
+<nierror code="63186">
+Anzahl der offenen RIO-Sessions ist größer als die empfohlene Anzahl. Schließen Sie nicht mehr benötigte RIO-Sessions, um die Leistung zu steigern.
+</nierror>
+<nierror code="63188">
+Dieser Vorgang wird nicht mehr unterstützt.
+</nierror>
+<nierror code="63194">
+Die Software auf dem Zielsystem ist älter als die des Host-Computers, aber beide Versionen sind noch miteinander kompatibel. Aktualisieren Sie die Version der Zielsoftware.
+</nierror>
+<nierror code="65004">
+Die mit der Methode verbundene Kanal-, Steckplatz- oder Anschlussnummer ist ungültig. Ändern Sie die Daten für die Methode, damit diese mit der Konfiguration des CompactRIO-Systems übereinstimmen.
+</nierror>
+<nierror code="65009">
+Der PXI-Trigger, den Sie reservieren oder dessen Reservierung Sie aufheben möchten, ist ungültig.  Die gültigen Werte für PXI-Trigger lauten 1 bis 7.
+</nierror>
+</nidocument>

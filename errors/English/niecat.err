@@ -1,0 +1,941 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="NI-Industrial Communications for EtherCAT" displayname="NI-Industrial Communications for EtherCAT">
+</nifamily>
+</nicomment>
+<nierror code="-2147138560">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138559">
+NI-Industrial Communications for EtherCAT:  The software cannot perform this task, because the system does not have enough memory.
+</nierror>
+<nierror code="-2147138558">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138557">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138556">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138555">
+NI-Industrial Communications for EtherCAT:  An internal software error has occurred in the NI-Industrial Communications for EtherCAT driver. Please contact National Instruments product support.
+</nierror>
+<nierror code="-2147138554">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138553">
+NI-Industrial Communications for EtherCAT:  The variable does not exist because the master, slave, or module handle is invalid. Check the name of master, slave, or module.
+</nierror>
+<nierror code="-2147138552">
+NI-Industrial Communications for EtherCAT:  The operation is timeout. Ensure that you power on the slave device in the EtherCAT network and connect the device to the network properly.
+</nierror>
+<nierror code="-2147138551">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138550">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005440A) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138549">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005440B) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138548">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005440C) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138547">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005440D) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138545">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005440F) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138544">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054410) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138543">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054411) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138542">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054412) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138541">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054413) The software cannot detect the adapter. Ensure that the master ID exists.
+</nierror>
+<nierror code="-2147138540">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054414) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138539">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054415) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138538">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054416) A CRC error occurs during Ethernet communication. Check the state of the hardware and ensure that your devices are properly connected.
+</nierror>
+<nierror code="-2147138537">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054417) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138536">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054418) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138535">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054419) The software cannot detect a secondary Ethernet adapter.
+
+Ensure that at least two Ethernet adapters are on your RT system and use Measurements & Automation Explorer to configure one of these Ethernet adapters for EtherCAT.
+</nierror>
+<nierror code="-2147138534">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005441A) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138533">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005441B) The telegram is timeout. Ensure that the master device is connected to the EtherCAT network. Ensure that each slave device in the EtherCAT network is powered on and properly connected.
+</nierror>
+<nierror code="-2147138532">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005441C) Communication error occurs. Ensure that the slave device is properly connected to the master.
+</nierror>
+<nierror code="-2147138530">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005441E) A CRC error occurs during telegram transmission.
+</nierror>
+<nierror code="-2147138529">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005441F) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138528">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054420) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138527">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054421) The Cyclic telegram size exceeds the limit. To resolve this issue, increase the cyclic data bandwidth using the EtherCAT master property page, increase the NI Scan Engine scan period, or remove unused modules or slave devices from your project.
+</nierror>
+<nierror code="-2147138526">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054422) The non-cyclic telegram size exceeds the limit. To resolve this issue, reduce the cyclic telegram bandwidth using the EtherCAT master property page or increase the NI Scan Engine scan period.
+</nierror>
+<nierror code="-2147138525">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054423) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138524">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054424) Logical Read Write (LRW) has been enabled on the master, but at least one slave does not support this feature. Configure your network LRW settings using the Property page of the master.
+</nierror>
+<nierror code="-2147138523">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054425) The number of the slave devices exceeds the limit. The master can only support 65,535 slave devices at most.
+</nierror>
+<nierror code="-2147138522">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054426) The software does not detect any slave device. Ensure that all devices are powered on and connect to the network properly.
+</nierror>
+<nierror code="-2147138521">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054427) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support. 
+</nierror>
+<nierror code="-2147138520">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054428) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138519">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054429) The time allocated for EtherCAT cyclic data is not enough for this platform. To resolve this issue, increase the EtherCAT Cyclic Bandwidth percentage from the master Property page and increase the scan period of the NI Scan Engine to allow longer time for cyclic telegrams.
+</nierror>
+<nierror code="-2147138518">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005442A) The time allocated for EtherCAT non-cyclic data is not enough for this platform. To resolve this issue, decrease the EtherCAT Cyclic Bandwidth percentage from the master Property page and increase the scan period of the NI Scan Engine to allow longer time for non-cyclic telegrams.
+</nierror>
+<nierror code="-2147138517">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005442B) The scan rate cannot be changed while the NI Scan Engine is in Active mode. Change the NI Scan Engine to Configuration mode to change the scan rate.
+</nierror>
+<nierror code="-2147138516">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005442C) The NI Scan Engine could not be changed to Active mode because at least one slave device failed to enter Operational state.
+</nierror>
+<nierror code="-2147138515">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005442D) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138512">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054430) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138511">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054431) The distributed clock cannot be enabled because the master cannot calculate a valid propagation delay between slaves in the network. Incorrect timing of the hardware on your slave device could cause this error. Ensure that the device is properly connected and functioning correctly. If the problem persists, consider disabling the distributed clock.
+</nierror>
+<nierror code="-2147138510">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054432) The distributed clock cannot be enabled because the master cannot read time stamps from all the slave devices in the network. Ensure that all your slave devices support this feature and ensure that all the devices are properly connected to the network. Alternatively, try to disable the distributed clock using the Property page for each slave device.
+</nierror>
+<nierror code="-2147138509">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054433) The distributed clock cannot be enabled because the master cannot read the network topology. Ensure that the slave device connects to the network properly.
+</nierror>
+<nierror code="-2147138508">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054434) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support. 
+</nierror>
+<nierror code="-2147138507">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054435) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138506">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054436) The master cannot enable the distributed clock because the master cannot read the reference clock from the slave devices. Ensure that the physical connections of each slave device are in the network. Ensure that each device that has its distributed clock enabled actually supports the distributed clock feature.
+</nierror>
+<nierror code="-2147138505">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054437) The distributed clock cannot be enabled because the frequency difference between the master clock and the reference clock is too large. Check the system clocks on the real-time target and the slave device and reduce the frequency difference.
+</nierror>
+<nierror code="-2147138504">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054438) The slave device does not support the requested distributed clock (DC) synchronization mode. Ensure that you choose a slave device that supports the mode.
+</nierror>
+<nierror code="-2147138502">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005443A) The slave state transfer is invalid. The state is not defined or not reachable in the current state.
+</nierror>
+<nierror code="-2147138501">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005443B) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138500">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005443C) The slave device deployed to the real-time target does not match the device in the EtherCAT network. The mismatch happens if a slave device has been inserted, removed, or substituted after deployment. Redeploy the device to ensure that each device in the network matches the device in the LabVIEW project tree.
+</nierror>
+<nierror code="-2147138499">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005443D) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138498">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005443E) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138497">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005443F) The slave state does not match the expected state. Try to use a larger timeout value when you set the slave state.
+</nierror>
+<nierror code="-2147138496">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054440) Slave devices with duplicate addresses have been added to the EtherCAT network after the project was deployed. Undeploy the EtherCAT master, add the new slave devices, and then redeploy the master to solve the problem.
+</nierror>
+<nierror code="-2147138495">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054441) The master cannot access the slave at its last known address. If you have just finished a firmware download, this error is expected. Switch the NI Scan Engine to Active mode to resolve this issue.
+</nierror>
+<nierror code="-2147138494">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054442) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138493">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054443) The slave cannot switch to the specified state. On the Online Device State page of the device, check the error and emergency data of the device. Refer to the product documentation of the slave device for more information about how to switch states and resolve errors.
+</nierror>
+<nierror code="-2147138492">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054444) The Fieldbus Memory Management Unit (FMMU) configuration of the slave device is incorrect. Ensure that the device profile is not out of date and match the hardware on your slave device. Update your device profile to a version that matches your slave device. If the problem persists, contact your device vendor's product support.
+</nierror>
+<nierror code="-2147138491">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054445) The Sync Manager configuration of the slave device is incorrect. Ensure that the device profile is not out of date and match the hardware on your slave device. Update your device profile to a version that matches your slave device. If the problem persists, contact your device vendor's product support.
+</nierror>
+<nierror code="-2147138490">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054446) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138489">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054447) The specified synchronization mode is not supported by your slave device.
+</nierror>
+<nierror code="-2147138488">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054448) The Sync 0 distributed clock cannot be used to synchronize your slave device with the master device because the cycle time of the slave device is too short. On the slave device's property page, increase the SYNC0 cycle time or increase the NI Scan Engine's scan period to fix this issue. Alternatively, consider disabling the distributed clock.
+</nierror>
+<nierror code="-2147138487">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054449) The slave device cannot synchronize its output because the output synchronization shift exceeds the SYNC0 Cycle Time of the slave device. Increase the scan period of the NI Scan Engine or increase the SYNC0 Cycle Time of the slave device to resolve this issue. If this problem persists, consider using a different synchronization mode. A slave device's SYNC0 Shift Time, Output Correction settings, and the timing characteristics of other slave devices in the network may also affect output synchronization. Refer to the documentation of the device vendor for more information.
+</nierror>
+<nierror code="-2147138486">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005444A) The slave device cannot synchronize its input because the input synchronization shift exceeds the SYNC0 Cycle Time of the slave device.
+
+Increase the scan period of the NI Scan Engine or increase the SYNC0 Cycle Time of the slave device to resolve this issue. If this problem persists, consider using a different synchronization mode. A slave device's SYNC0 Shift Time, Input Correction settings, and the timing characteristics of other slave devices in the network may also affect input synchronization. Refer to documentation of the device vendor for more information.
+</nierror>
+<nierror code="-2147138485">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005444B) The slave device does not connect to the network. Ensure the slave device in the EtherCAT network is powered on and properly connected.
+</nierror>
+<nierror code="-2147138484">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005444C) The master failed to clear the error on the slave device. Ensure that your slave device is powered on and properly connected to the EtherCAT network. If the problem persists, check your slave device's error state using the Online Device State page in the LabVIEW project. If an emergency code has been returned, refer to your slave device's product documentation for more information.
+</nierror>
+<nierror code="-2147138483">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005444D) The operation is timeout when you switch the slave device to a different state. Ensure that the slave device is powered on and properly connected to the EtherCAT network.
+</nierror>
+<nierror code="-2147138482">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005444E) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138481">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005444F) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138480">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054450) The slave device cannot be found. The positional addresses within the LabVIEW project are inconsistent with the actual network topology. Ensure that each slave device's positional address matches its actual position within the EtherCAT network. Removing your slave devices from the EtherCAT master and rediscovering the slave devices resolve this issue but you lose all customized properties on these devices.
+</nierror>
+<nierror code="-2147138479">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054451) The master cannot communicate with the EtherCAT network. Ensure that each device in the EtherCAT network is powered on and properly connected.
+</nierror>
+<nierror code="-2147138478">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054452) The master cannot communicate with the EtherCAT network. Ensure that each device in the EtherCAT network is powered on and properly connected.
+</nierror>
+<nierror code="-2147138476">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054454) The master device detects a CRC error during the EtherCAT communication.
+</nierror>
+<nierror code="-2147138475">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054455) The master cannot communicate with the EtherCAT network. Ensure that each device in the EtherCAT network is powered on and properly connected.
+</nierror>
+<nierror code="-2147138474">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054456) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138473">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054457) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138472">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054458) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138471">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054459) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138470">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005445A) The mailbox on your slave device cannot be started because the bandwidth allocated for non-cyclic communication is not enough. Decrease the EtherCAT Cyclic Data Bandwidth percentage on EtherCAT master's property page and increase the scan period of the NI Scan Engine to resolve this error.
+</nierror>
+<nierror code="-2147138469">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005445B) The current operation requires the mailbox service of the slave. You need to check whether the slave is in Pre-Operational state or states of higher priority before starting the mailbox communication.
+</nierror>
+<nierror code="-2147138468">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005445C) CoE operation fails because the CoE service is timeout. Ensure that each device in the EtherCAT network is powered on and properly connected.
+</nierror>
+<nierror code="-2147138467">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005445D) An SDO request sent by the master has been aborted by the slave device due to incorrect initial commands or incorrect PDO selection. Check the configuration of the slave device on the device's property page and ensure that the configuration is correct.
+</nierror>
+<nierror code="-2147138466">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005445E) An SDO info request sent by the master has been aborted by the slave device.
+</nierror>
+<nierror code="-2147138465">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005445F) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138464">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054460) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138463">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054461) No pending SDO request is on this device.
+</nierror>
+<nierror code="-2147138462">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054462) An SDO request is running on this device. You can send a new request until the current request is cancelled or complete.
+</nierror>
+<nierror code="-2147138461">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054463) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138460">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054464) CoE operation fails because a previous CoE operation has not been completed.
+</nierror>
+<nierror code="-2147138459">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054465) The slave device is processing another SDO request. Try sending this request again until the previous request is complete.
+</nierror>
+<nierror code="-2147138458">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054466) The slave device does not support the CoE protocol.
+</nierror>
+<nierror code="-2147138457">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054467) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138456">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054468) The FoE operation fails. Use the GetFoERequestError method to get more information about this error. 
+</nierror>
+<nierror code="-2147138455">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054469) The FoE operation fails because packets received from the slave device are corrupted or out of order.
+</nierror>
+<nierror code="-2147138454">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005446A) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138453">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005446B) The array size of the input data cannot exceed 8,192 bytes.
+</nierror>
+<nierror code="-2147138452">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005446C) No FoE task has been started.
+</nierror>
+<nierror code="-2147138451">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005446D) The slave device does not support the FoE protocol.
+</nierror>
+<nierror code="-2147138450">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005446E) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138449">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005446F) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138448">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054470) The process data is not available, because another user is accessing the data or changing the memory mapping. Wait a few seconds and try again.
+</nierror>
+<nierror code="-2147138447">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054471) LabVIEW cannot initialize communication to the remote target. Ensure that the NI-Industrial Communications for EtherCAT software has been installed on the real-time controller and that the RT controller is powered on and properly connected. Ensure that the controller is not too busy to respond.
+</nierror>
+<nierror code="-2147138446">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054472) The remote target is not responding to EtherCAT RPC requests. Ensure that the NI-Industrial Communications for EtherCAT software has been installed on the real-time controller and that the RT controller is powered on and properly connected. Ensure that the controller is not too busy to respond. Check the thread utilization to ensure that the default thread prioritizations have not been modified.
+</nierror>
+<nierror code="-2147138445">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054473) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138442">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054476) The module cannot be found. If the physical module exists and the device is in FPGA mode, recompile and download the module file to fix this problem.
+</nierror>
+<nierror code="-2147138441">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054477) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138439">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054479) The master cannot determine the modules on your slave device because modules were inserted or removed while the master was detecting the modules. To fix this error, re-detect the modules on your slave device using the New Targets and Devices dialog box in the LabVIEW project.
+</nierror>
+<nierror code="-2147138438">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005447A) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138437">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005447B) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138436">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005447C) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138435">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005447D) The calibration table of the EtherCAT module cannot be successfully loaded.
+</nierror>
+<nierror code="-2147138434">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005447E) An unsupported module has been discovered. Ensure that all of the modules in your slave device are supported by the NI-Industrial Communications for EtherCAT software. If all of the modules are supported, ensure that you have the most recent version of the firmware and that your device profiles are up to date. Refer to the product documentation for more information.
+</nierror>
+<nierror code="-2147138433">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005447F) The NI-RIO scan interface cannot be loaded.
+</nierror>
+<nierror code="-2147138432">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054480) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138431">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054481) An error occurs while the software loads the CompactRIO assembly handler.
+</nierror>
+<nierror code="-2147138430">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054482) The channel of the module does not exist.
+</nierror>
+<nierror code="-2147138429">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054483) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138428">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054484) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138427">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054485) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138426">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054486) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138425">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054487) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138424">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054488) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138423">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054489) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138422">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005448A) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138421">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005448B) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138420">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005448C) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138419">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005448D) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138418">
+NI-Industrial Communications for EtherCAT:  (Hex 0x8005448E) An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138417">
+NI-Industrial Communications for EtherCAT:  The channel does not support direct I/O access on your slave device. Switch to another channel and try again.
+</nierror>
+<nierror code="-2147138416">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138415">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054491) The operation cannot be completed because the NI Scan Engine is in Fault mode. Use the NI Distributed System Manager, available by right-clicking the remote target in the LabVIEW project and selecting Utilities from the shortcut menu, to get more information and to clear any faults that exist on your remote target.
+</nierror>
+<nierror code="-2147138414">
+NI-Industrial Communications for EtherCAT:  More slave devices responded to the telegram than the master expects. An addressing conflict exists. Redeploy the master to resolve the issue.
+</nierror>
+<nierror code="-2147138413">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054493) The master detects that the NI Scan Engine is late, so the NI Scan Engine cannot keep up with your desired scan rate. Lower the scan rate by increasing the scan period of the NI Scan Engine.
+</nierror>
+<nierror code="-2147138412">
+NI-Industrial Communications for EtherCAT:  More slave devices are responding to EtherCAT communications than the master expects. If you add new slave devices to the EtherCAT network after the most recent project deployment, add these new devices to your project and redeploy the master.
+</nierror>
+<nierror code="-2147138411">
+NI-Industrial Communications for EtherCAT:  Not all of the slave devices in the network are responding to the master. Ensure that each device in the network is powered on, properly connected to the network, and online. Redeploy the master to solve this problem. If you have just finished a firmware download, this behavior is not an error. Your slave device should now be ready to use.
+</nierror>
+<nierror code="-2147138410">
+NI-Industrial Communications for EtherCAT:  Not all of the slave devices in the network are responding to the master. Ensure that each device in the network is powered on, properly connected to the network, and online. If the problem persists, try redeploying the master again. In addition, change the scan engine to Configuration mode and then back to Active mode again to solve the issue.
+</nierror>
+<nierror code="-2147138409">
+NI-Industrial Communications for EtherCAT:  Not all of the slave devices in the network are responding to the master. Ensure that each device in the network is powered on, properly connected to the network, and online. Redeploy the master to solve this problem. If you have just finished a firmware download, this behavior is not an error. Your slave device should now be ready to use.
+</nierror>
+<nierror code="-2147138408">
+NI-Industrial Communications for EtherCAT:  More slave devices are responding to EtherCAT communications than the master expects. If you add new slave devices to the EtherCAT network after deploying the project, add these new devices to your project and redeploy the master.
+</nierror>
+<nierror code="-2147138407">
+NI-Industrial Communications for EtherCAT:  The slave device cannot switch to Safe Operational state if the device distributed clock is enabled and the NI Scan Engine is set to Configuration mode. Set the NI Scan Engine to Active mode or disable the slave device distributed clock to solve the problem.
+</nierror>
+<nierror code="-2147138406">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138405">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138404">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138403">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138402">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138401">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138400">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138399">
+NI-Industrial Communications for EtherCAT:  An FoE request is running. You can send a new request after you cancel this request or until the request is complete.
+</nierror>
+<nierror code="-2147138398">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138397">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138396">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138395">
+NI-Industrial Communications for EtherCAT:  This property can only be set when the NI Scan Engine is in Configuration Mode.
+</nierror>
+<nierror code="-2147138394">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138393">
+NI-Industrial Communications for EtherCAT:  Network communication fails. Ensure that all devices are connected to the real-time controller and the devices are powered on. If the problem persists, try to increase the EtherCAT Cyclic Bandwidth percentage on the master property page or increase the scan period of the NI Scan Engine to increase the time for cyclic telegrams.
+</nierror>
+<nierror code="-2147138392">
+NI-Industrial Communications for EtherCAT:  PDI or the Sync Manager watchdogs cannot be configured on your slave device. Your device is offline or the watchdogs are not supported. Ensure that your device is powered on and properly connected to the network. If your device does not support PDI or Sync Manager watchdogs, disable these watchdogs from your slave device's property page. Refer to your slave device's product documentation for more details about watchdog support.
+</nierror>
+<nierror code="-2147138391">
+NI-Industrial Communications for EtherCAT:  The Sync Manager watchdog cannot be configured on your slave device. Your device is offline or your device does not support the Sync Manager watchdog. Ensure that your device is powered on and properly connected to the network. If your device does not support the Sync Manager watchdog, disable the Sync Manager watchdog from your device's property page. Refer to your slave device's product documentation for more details about Sync Manager watchdog support.
+</nierror>
+<nierror code="-2147138390">
+NI-Industrial Communications for EtherCAT:  The PDI watchdog cannot be configured on your slave device. Your device is offline or does not support the PDI watchdog. Ensure that your device is powered on and properly connected to the network. If your device does not support the PDI watchdog, disable the PDI watchdog from your device's property page. Refer to your slave device's product documentation for more details about PDI watchdog support.
+</nierror>
+<nierror code="-2147138389">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138388">
+NI-Industrial Communications for EtherCAT:  Synchronizing the device output to the distributed clock is not supported by your slave device. Navigate to the device Property page and select an output synchronization mode that is supported by your slave device. Refer to your device's product support for more information.
+</nierror>
+<nierror code="-2147138387">
+NI-Industrial Communications for EtherCAT:  Synchronizing the device input to the distributed clock is not supported by your slave device. Navigate to the device Property page and select an input synchronization mode that is supported by your slave device. Refer to your device's product support for more information.
+</nierror>
+<nierror code="-2147138386">
+NI-Industrial Communications for EtherCAT:  Synchronizing the device input to the EtherCAT frame is not supported by your slave device. Navigate to the device Property page and select an input synchronization mode that is supported by your slave device. Refer to your device's product support for more information.
+</nierror>
+<nierror code="-2147138385">
+NI-Industrial Communications for EtherCAT:  Synchronizing the device output to the EtherCAT frame is not supported by your slave device. Navigate to the device Property page and select an output synchronization mode that is supported by your slave device. Refer to your device's product support for more information.
+</nierror>
+<nierror code="-2147138384">
+NI-Industrial Communications for EtherCAT:  Synchronizing the device input to Free Run is not supported by your slave device. Navigate to the device Property page and select an input synchronization mode that is supported by your slave device. Refer to your device's product support for more information.
+</nierror>
+<nierror code="-2147138383">
+NI-Industrial Communications for EtherCAT:  Synchronizing the device output to Free Run is not supported by your slave device. Navigate to the device Property page and select an output synchronization mode that is supported by your slave device. Refer to your device's product support for more information.
+</nierror>
+<nierror code="-2147138382">
+NI-Industrial Communications for EtherCAT:  The specified scan period for the NI Scan Engine exceeds the maximum supported value for the NI-Industrial Communications for EtherCAT software. The scan period for this software must be less than 1 second. Configure the NI Scan Engine to use a scan period less than 1 second by right-clicking the real-time controller in the LabVIEW project and selecting Properties. On the Properties page, navigate to scan period in the Scan Engine category. You can also change the scan period programmatically using the Set Scan Engine Period VI on the NI Scan Engine VI palette.
+</nierror>
+<nierror code="-2147138281">
+NI-Industrial Communications for EtherCAT:  The firmware download operation to your slave device fails. The firmware you are downloading is corrupted or incorrect. Check the Online Device State page of the slave for more information.
+</nierror>
+<nierror code="-2147138280">
+NI-Industrial Communications for EtherCAT:  The master was unable to properly configure a module in your modular slave device. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138279">
+NI-Industrial Communications for EtherCAT:  The software cannot discover modules when the Scan Engine is in Active mode. Switch the Scan Engine to Configuration mode and try again.
+</nierror>
+<nierror code="-2147138278">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138277">
+NI-Industrial Communications for EtherCAT:  The software detects a mismatch between the deployed user-defined variables and the running user-defined variables on the FPGA of the slave device. Update and redeploy the project or download the FPGA VI again.
+</nierror>
+<nierror code="-2147138276">
+NI-Industrial Communications for EtherCAT:  The software detects an error from the FPGA that you download to the slave device. Recompile the FPGA and download the FPGA to the slave device again.
+</nierror>
+<nierror code="-2147138275">
+NI-Industrial Communications for EtherCAT:  The software does not find the user-defined variable. Ensure that you compile the variable in the FPGA.
+</nierror>
+<nierror code="-2147138274">
+NI-Industrial Communications for EtherCAT:  The specified scan rate is too fast for NI-Industrial Communications for EtherCAT. Change to a slower scan rate and try again.
+</nierror>
+<nierror code="-2147138273">
+NI-Industrial Communications for EtherCAT:  The download cannot continue because the Scan Engine is not in Configuration mode. Switch the Scan Engine to Configuration mode.
+</nierror>
+<nierror code="-2147138272">
+NI-Industrial Communications for EtherCAT:  You cannot discover connected modules, because the FPGA target you selected is under an offline EtherCAT device. Add new offline modules to the LabVIEW project to solve the problem.
+</nierror>
+<nierror code="-2147138271">
+NI-Industrial Communications for EtherCAT:  The software cannot compile the application and deploy it to the slave device, because the application contains too many modules or user-defined variables. Modify the application by removing modules or reducing the number, size, and name length of these user-defined variables and compile the application again.
+</nierror>
+<nierror code="-2147138270">
+NI-Industrial Communications for EtherCAT:  This slave device is already in Scan mode. Ensure that you want to use the device in Scan mode and keep the mode.
+</nierror>
+<nierror code="-2147138269">
+NI-Industrial Communications for EtherCAT:  The firmware installed on this slave device does not support custom FPGA. Refer to the NI-Industrial Communication for EtherCAT Help for information about upgrading the firmware.
+</nierror>
+<nierror code="-2147138268">
+NI-Industrial Communications for EtherCAT:  The download cannot continue. Make sure that you deploy the EtherCAT network and connect the slave device properly.
+</nierror>
+<nierror code="-2147138267">
+NI-Industrial Communications for EtherCAT:  You have already downloaded the FPGA VI. Double-check the FPGA VI and make sure that you download the VI you want to use.
+</nierror>
+<nierror code="-2147138266">
+NI-Industrial Communications for EtherCAT:  This FPGA bitfile is not for the device. Make sure that you choose the bitfile that you compile for this device.
+</nierror>
+<nierror code="-2147138265">
+NI-Industrial Communications for EtherCAT:  This file is corrupted. Make sure that the file to use is intact.
+</nierror>
+<nierror code="-2147138264">
+NI-Industrial Communications for EtherCAT:  The software cannot download the firmware. Make sure that the slave device is in Bootstrap state and try again.
+</nierror>
+<nierror code="-2147138263">
+NI-Industrial Communications for EtherCAT:  You must select a file to use before the operation.
+</nierror>
+<nierror code="-2147138262">
+NI-Industrial Communications for EtherCAT:  The software cannot find the file. Ensure that the filename is correct and that you search for the file on the right device.
+</nierror>
+<nierror code="-2147138261">
+NI-Industrial Communications for EtherCAT:  The master ID of the EtherCAT master device is out of range or not unique. Specify a unique master ID for this device. The valid range is from 0 to 255.
+</nierror>
+<nierror code="-2147138260">
+NI-Industrial Communications for EtherCAT:  The number of adapters exceeds EtherCAT support limitation. Make sure that the number does not exceed 256.
+</nierror>
+<nierror code="-2147138259">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. You cannot load the adapter component successfully. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138258">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138257">
+NI-Industrial Communications for EtherCAT:  The software cannot find the profile for the specific device. Import the device profile and try again.
+</nierror>
+<nierror code="-2147138256">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138255">
+NI-Industrial Communications for EtherCAT:  The software cannot discover EtherCAT devices when the NI Scan Engine is in Active Mode. Switch the NI Scan Engine to Configuration mode and try again.
+</nierror>
+<nierror code="-2147138254">
+NI-Industrial Communications for EtherCAT:  The value of the data array size is invalid. Make sure that the size value is greater than zero.
+</nierror>
+<nierror code="-2147138253">
+NI-Industrial Communications for EtherCAT:  The FoE filename is invalid. Make sure that the file exists and the length of the filename does not exceed 256.
+</nierror>
+<nierror code="-2147138252">
+NI-Industrial Communications for EtherCAT:  The state you use to set the property is incorrect. Make sure that you set the property when the slave device is in Init state.
+</nierror>
+<nierror code="-2147138251">
+NI-Industrial Communications for EtherCAT:  The state you use to set the property is incorrect. Make sure that you set the property when the slave device is in Safe Operational or Operational state.
+</nierror>
+<nierror code="-2147138250">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. When the NI Scan Engine is in Active mode, you cannot add or delete a master from the stack. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138249">
+NI-Industrial Communications for EtherCAT:  This slave device already exists in the stack. Do not add the same slave device to the stack twice.
+</nierror>
+<nierror code="-2147138248">
+NI-Industrial Communications for EtherCAT:  The software does not support distributed clock in Cable Redundancy mode. Disable all distributed clocks on the slave device or disable Cable Redundancy mode.
+</nierror>
+<nierror code="-2147138247">
+NI-Industrial Communications for EtherCAT:  The software cannot enable Cable Redundancy mode again if the primary master or the redundant master is already in Cable Redundancy mode.
+</nierror>
+<nierror code="-2147138246">
+NI-Industrial Communications for EtherCAT:  The software cannot configure Cable Redundancy settings. Make sure that the master device is not in Configuration or Stop mode.
+</nierror>
+<nierror code="-2147138245">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138244">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138243">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138242">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138241">
+NI-Industrial Communications for EtherCAT:  The software cannot import the device profile. Refer to the NI-Industrial Communications for EtherCAT Help for more information about the causes of the failure.
+</nierror>
+<nierror code="-2147138240">
+NI-Industrial Communications for EtherCAT:  The software detects a broken cable. You cannot change the NI Scan Engine to Active mode if any cable is broken while the master device is running in Cable Redundancy mode. Reconnect the cable to make sure the cable is not broken or disable Cable Redundancy mode.
+</nierror>
+<nierror code="-2147138239">
+NI-Industrial Communications for EtherCAT:  The software detects an incompatible assembly. Deploy the application again.
+</nierror>
+<nierror code="-2147138238">
+NI-Industrial Communications for EtherCAT:  You can only perform the operation related with raw data in Active mode. Switch to Active mode and try again.
+</nierror>
+<nierror code="-2147138237">
+NI-Industrial Communications for EtherCAT:  The software cannot find the object of this URL or the object of the URL has an incorrect I/O direction. Make sure that the URL, the I/O direction, and the master refnum of the NI-Industrial Communications for EtherCAT software are correct. 
+</nierror>
+<nierror code="-2147138236">
+NI-Industrial Communications for EtherCAT:  You must make sure that the input array size is larger than that of raw data.
+</nierror>
+<nierror code="-2147138235">
+NI-Industrial Communications for EtherCAT:  The software cannot perform this operation because you do not enable Raw Data mode for the slave devices. Make sure that you enable Raw Data mode for the slave devices.
+</nierror>
+<nierror code="-2147138234">
+NI-Industrial Communications for EtherCAT:  The software cannot identify some devices. Make sure that you install the device description files properly.
+</nierror>
+<nierror code="-2147138233">
+NI-Industrial Communications for EtherCAT:  The software cannot perform this operation because you do not enable Raw Data mode for the slave devices that the URL refers.
+</nierror>
+<nierror code="-2147138232">
+NI-Industrial Communications for EtherCAT:  Windows cannot display some characters. Make sure that you select proper system locale for your Windows region and language setting.
+</nierror>
+<nierror code="-2147138231">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138230">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138229">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. The software does not support the DLCommand. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138228">
+NI-Industrial Communications for EtherCAT:  You cannot add or remove the device monitor when the master device is not in Configuration mode. Switch to Configuration mode and try again.
+</nierror>
+<nierror code="-2147138227">
+NI-Industrial Communications for EtherCAT:  The software cannot read the device monitor when the master is not in Operational mode. Switch to Operational mode and try again.
+</nierror>
+<nierror code="-2147138226">
+NI-Industrial Communications for EtherCAT:  The software cannot read the device monitor when you disable the device monitor. Enable the device monitor and try again.
+</nierror>
+<nierror code="-2147138225">
+NI-Industrial Communications for EtherCAT:  The software cannot read or write the PDO data because the slave device is not in a proper state. For input I/O variables that read PDOs, make sure that the slave device is in Operational or Safe Operational states. For output I/O variables that write PDOs, make sure that the slave device is in Operational state. Use the master software to switch the slave device states. If the master cannot switch the slave device state, refer to the NI-Industrial Communications for EtherCAT Help for more information about using the slave devices.
+</nierror>
+<nierror code="-2147138224">
+NI-Industrial Communications for EtherCAT:  The software cannot read or write the PDO data because the master is not in Operational mode. Switch to Operational mode and try again.
+</nierror>
+<nierror code="-2147138221">
+NI-Industrial Communications for EtherCAT:  You cannot add more monitors. The maximum number of monitors is sixteen. Make sure that the monitor number does not exceed the maximum number.
+</nierror>
+<nierror code="-2147138220">
+NI-Industrial Communications for EtherCAT:  The software cannot complete the operation because you disable Master Redundancy mode. Enable Master Redundancy mode and try again.
+</nierror>
+<nierror code="-2147138219">
+NI-Industrial Communications for EtherCAT:  The Takeover cycle is invalid. Make sure that the Takeover cycle is more than one.
+</nierror>
+<nierror code="-2147138218">
+NI-Industrial Communications for EtherCAT:  You cannot enable or disable the status monitor in Master Redundancy mode. The software forces the status monitor to enable in Master Redundancy mode. Switch to another mode and try again.
+</nierror>
+<nierror code="-2147138217">
+NI-Industrial Communications for EtherCAT:  The input parameters for EEPROM data are invalid. Align the address and the data size of EEPROM with WORD.
+</nierror>
+<nierror code="-2147138215">
+NI-Industrial Communications for EtherCAT:  The software does not allow refreshment when you enable Master Redundancy mode. Disable Master Redundancy  mode and try again.
+</nierror>
+<nierror code="-2147138214">
+NI-Industrial Communications for EtherCAT:  You must configure all slave devices on the network when you enable Master Redundancy mode.
+</nierror>
+<nierror code="-2147138213">
+NI-Industrial Communications for EtherCAT:  The software cannot start an FoE request. Make sure that the slave device is in Bootstrap state and try again.
+</nierror>
+<nierror code="-2147138212">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. Using the command ecat_status_internal cannot open the network device driver. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138211">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138210">
+NI-Industrial Communications for EtherCAT:  The EtherCAT network interface does not respond because you do not start the EtherCAT network interface successfully or you are in a process of downloading the FPGA image to the controller. Make sure that you start the EtherCAT interface or wait for the download complete.
+</nierror>
+<nierror code="-2147138209">
+NI-Industrial Communications for EtherCAT:  You do not install any file transfer protocol that the software supports. Make sure that you install the proper file transfer protocol.
+</nierror>
+<nierror code="-2147138208">
+NI-Industrial Communications for EtherCAT:  The software fails to transfer device profiles to the real-time target. Refer to the NI-Industrial Communications for EtherCAT Help for more information about the device profiles.
+</nierror>
+<nierror code="-2147138207">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147138206">
+NI-Industrial Communications for EtherCAT:  The software cannot detect the target. Double-check your network connection. Ensure that the network address is correct and that the target accepts remote requests.
+</nierror>
+<nierror code="-2147138205">
+NI-Industrial Communications for EtherCAT:  The input slave position address does not exist.
+</nierror>
+<nierror code="-2147138204">
+NI-Industrial Communications for EtherCAT:  The operated slave is not a Remote I/O slave.
+</nierror>
+<nierror code="-2147138203">
+NI-Industrial Communications for EtherCAT:  The input module slot index does not exist.
+</nierror>
+<nierror code="-2147138202">
+NI-Industrial Communications for EtherCAT:  The module type specified by the input slot index does not match the item in the VI selector.
+</nierror>
+<nierror code="-2147138201">
+NI-Industrial Communications for EtherCAT:  Cannot find the ID of the EtherCAT master. Ensure that the ID exists.
+</nierror>
+<nierror code="-2147138200">
+NI-Industrial Communications for EtherCAT:  SDO error occurs. Check the SDO abort code.
+</nierror>
+<nierror code="-2147138199">
+NI-Industrial Communications for EtherCAT:  Module configuration error occurs. Check <b>negative confirmation</b>.
+</nierror>
+<nierror code="-2147138198">
+NI-Industrial Communications for EtherCAT:  The NI-TimeSync service is lost, please reboot the target and try again.
+</nierror>
+<nierror code="-2147137791">
+NI-Industrial Communications for EtherCAT:  An error has occurred in the slave device, possibly because you add or remove a module in Operational mode. Switch to another mode and try again.
+</nierror>
+<nierror code="-2147137775">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI slave. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147137774">
+NI-Industrial Communications for EtherCAT:  An internal software error has occurred in the NI slave. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147137770">
+NI-Industrial Communications for EtherCAT:  An internal software error has occurred in the NI slave. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147137769">
+NI-Industrial Communications for EtherCAT:  An internal software error has occurred in the NI slave. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147137766">
+NI-Industrial Communications for EtherCAT:  Timing monitors have detected a synchronization or timing error.
+</nierror>
+<nierror code="-2147137765">
+NI-Industrial Communications for EtherCAT:  The Sync Manager watchdog has expired. Data packets are either late or missing.
+</nierror>
+<nierror code="-2147137764">
+NI-Industrial Communications for EtherCAT:  The slave device does not support the Auxiliary Synchronization Signal (SYNC1). Disable SYNC1 from the Distributed Clock settings on your slave device Properties page.
+</nierror>
+<nierror code="-2147137763">
+NI-Industrial Communications for EtherCAT:  An internal software error has occurred in the NI slave. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147137762">
+NI-Industrial Communications for EtherCAT:  An internal software error has occurred in the NI slave. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147137744">
+NI-Industrial Communications for EtherCAT:  An internal software error has occurred in the NI slave. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147137710">
+NI-Industrial Communications for EtherCAT:  An internal software error has occurred in the NI slave. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147137708">
+NI-Industrial Communications for EtherCAT:  An internal software error has occurred in the NI slave. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147137707">
+NI-Industrial Communications for EtherCAT:  An internal software error has occurred in the NI slave. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147137706">
+NI-Industrial Communications for EtherCAT:  An internal software error has occurred in the NI slave. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147137704">
+NI-Industrial Communications for EtherCAT:  An internal software error has occurred in the NI slave. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147137696">
+NI-Industrial Communications for EtherCAT:  An internal software error has occurred in the NI slave. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147137695">
+NI-Industrial Communications for EtherCAT:  An internal software error has occurred in the NI slave. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147137694">
+NI-Industrial Communications for EtherCAT:  An internal software error has occurred in the NI slave. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147137693">
+NI-Industrial Communications for EtherCAT:  An internal software error has occurred in the NI slave. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147137692">
+NI-Industrial Communications for EtherCAT:  An internal software error has occurred in the NI slave. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147137691">
+NI-Industrial Communications for EtherCAT:  An internal software error has occurred in the NI slave. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147137690">
+NI-Industrial Communications for EtherCAT:  An internal software error has occurred in the NI slave. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147137689">
+NI-Industrial Communications for EtherCAT:  The software restarts the slave device with the backup firmware due to internal errors. If the problem persists, you cannot change the device to Operational state. Download a new version of the firmware to the device.
+</nierror>
+<nierror code="-2147137679">
+NI-Industrial Communications for EtherCAT:  The FoE operation fails. If you are doing an FoE upload, the FoE command being uploaded is not recognized by the device. If you are downloading firmware, the firmware you are downloading is incorrect or corrupted. If you are downloading an FPGA bitfile, the firmware installed on this slave device does not support custom FPGA.
+</nierror>
+<nierror code="-2147137678">
+NI-Industrial Communications for EtherCAT:  The FoE operation fails. Ensure that you solved all previous errors on the slave device and that you have an active FoE session.
+</nierror>
+<nierror code="-2147137677">
+NI-Industrial Communications for EtherCAT:  An internal software error has occurred in the NI slave. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147137676">
+NI-Industrial Communications for EtherCAT:  An internal software error has occurred in the NI slave. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147137675">
+NI-Industrial Communications for EtherCAT:  An internal software error has occurred in the NI slave. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147137670">
+NI-Industrial Communications for EtherCAT:  An internal software error has occurred in the NI slave. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147137648">
+NI-Industrial Communications for EtherCAT:  An internal software error has occurred in the NI slave. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147137647">
+NI-Industrial Communications for EtherCAT:  An internal software error has occurred in the NI slave. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147137646">
+NI-Industrial Communications for EtherCAT:  An internal software error has occurred in the NI slave. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147137645">
+NI-Industrial Communications for EtherCAT:  An internal software error has occurred in the NI slave. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147137643">
+NI-Industrial Communications for EtherCAT:  An internal software error has occurred in the NI slave. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2147137641">
+NI-Industrial Communications for EtherCAT:  The firmware upgrade fails. Reinstall the firmware.
+</nierror>
+<nierror code="-2147137639">
+NI-Industrial Communications for EtherCAT:  (Hex 0x80054799) The number of FPGA and RSI modules exceeds the capacity of the device. Refer to the device documentation for more information about the device capacity.
+</nierror>
+<nierror code="2147137793">
+NI-Industrial Communications for EtherCAT:  The slave device acting as the reference clock is not responding. The first slave device on the EtherCAT network with the distributed clock enabled acts as the network reference clock. Make sure that the particular slave is powered on and properly connected to the network.
+</nierror>
+<nierror code="2147137794">
+NI-Industrial Communications for EtherCAT:  Warning: The number of the modules to detect on the slave device exceeds the array you passed in.
+</nierror>
+<nierror code="2147137796">
+NI-Industrial Communications for EtherCAT:  The slave state monitor fails. Ensure that the master has enough bandwidth to send the monitor telegram.
+</nierror>
+<nierror code="2147137797">
+NI-Industrial Communications for EtherCAT:  The slave watchdog monitor fails. The master does not have enough bandwidth to send the watchdog monitor telegrams or the watchdog of the slave is not responding.
+</nierror>
+<nierror code="2147137800">
+NI-Industrial Communications for EtherCAT:  The PDO telegram has not been sent out. Wait at least one cycle and do the read or write operation again.
+</nierror>
+<nierror code="2147137801">
+NI-Industrial Communications for EtherCAT:  The PDO telegram was transmitted but did not come back on time. Ensure that the device is powered on and connects to the network properly.
+</nierror>
+<nierror code="2147137802">
+NI-Industrial Communications for EtherCAT:  The working count of the PDO telegram is not the expected value. Ensure that the slave devices on the network are online and in proper state.
+</nierror>
+<nierror code="2147137803">
+NI-Industrial Communications for EtherCAT:  Not all slaves reached their destination states when the master changed to Safe Operational or Operational mode.
+</nierror>
+<nierror code="2147137804">
+NI-Industrial Communications for EtherCAT:  The master is not synchronized with the slave device that is acting as the reference clock. Changing the NI Scan Engine to Configuration mode and then to Active mode resynchronizes the devices to solve the problem.
+</nierror>
+<nierror code="2147137805">
+NI-Industrial Communications for EtherCAT:  The watchdog on a slave device has been triggered. Ensure that you choose the proper watchdog, PDI, and Sync manager.
+</nierror>
+<nierror code="2147137808">
+NI-Industrial Communications for EtherCAT:  One of the Ethernet cables is broken, but the data is valid. Make sure that the connection is not broken.
+</nierror>
+<nierror code="2147137809">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="2147137810">
+NI-Industrial Communications for EtherCAT:  The software fails to import some referenced module profiles in the slave profile. Refer to the NI-Industrial Communications for EtherCAT Help for more information about importing profiles.
+</nierror>
+<nierror code="2147137811">
+NI-Industrial Communications for EtherCAT:  The slave profile does not reference the module profile. Make sure that at least one slave profile references to the module profile.
+</nierror>
+<nierror code="2147137812">
+NI-Industrial Communications for EtherCAT:  The data access through I/O variables on this slave device is invalid because you enable Raw Data mode for the slave device. Disable Raw Data mode and try again.
+</nierror>
+<nierror code="2147137813">
+NI-Industrial Communications for EtherCAT:  The input buffer is insufficient for all states of the slave devices. To read back all states, make sure that the buffer size is larger than the largest position address of the slave devices that you configured.
+</nierror>
+<nierror code="2147137814">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="2147137815">
+NI-Industrial Communications for EtherCAT:  The slave device returns emergency data. Refer to the documentation of your device for more information.
+</nierror>
+<nierror code="2147137816">
+NI-Industrial Communications for EtherCAT:  An internal error has occurred in the NI-Industrial Communications for EtherCAT software. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="2147137817">
+NI-Industrial Communications for EtherCAT:  You do not synchronize the master with the time reference slave device. Wait one minute for the master to catch up with the slave device. If the master cannot catch up with the slave, change the NI Scan Engine to Configuration mode and then to Active mode to resynchronize your devices.
+</nierror>
+<nierror code="2147137818">
+NI-Industrial Communications for EtherCAT:  The software cannot discover the devices. Make sure that you import the device profiles properly.
+</nierror>
+<nierror code="2147137819">
+NI-Industrial Communications for EtherCAT:  The data for scaling is out of range. Make sure the value is within the range.
+</nierror>
+</nidocument>

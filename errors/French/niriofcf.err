@@ -1,0 +1,224 @@
+<?xml version="1.0">
+<nidocument>
+<nicomment>
+<nifamily displayname="NI-RIO" familyname="NI-RIO">
+</nifamily>
+</nicomment>
+<nierror code="-63199">
+La session n'a pas pu être ouverte car une autre session avec un fichier bitfile différent est déjà ouverte sur le périphérique. Fermez la session actuelle avant d'en ouvrir une autre.
+</nierror>
+<nierror code="-63198">
+Le système est à cours de ressources. Fermez une session et relancez l'opération.
+</nierror>
+<nierror code="-63197">
+Une valeur d'attribut non valide a été spécifiée.
+</nierror>
+<nierror code="-63196">
+Un attribut non valide a été spécifié.
+</nierror>
+<nierror code="-63195">
+Le handle pour la communication du périphérique n'est pas valide ou a été fermé. Redémarrez l'application.
+</nierror>
+<nierror code="-63194">
+Le logiciel NI-RIO du système cible n'est pas compatible avec ce logiciel. Mettez le logiciel NI-RIO à niveau sur le système cible.
+</nierror>
+<nierror code="-63193">
+La fonctionnalité demandée n'est pas supportée.
+</nierror>
+<nierror code="-63192">
+Le périphérique spécifié est introuvable. Utilisez MAX ou System Designer pour trouver le nom correct de la ressource pour le périphérique en question.
+</nierror>
+<nierror code="-63189">
+Le filtre de recherche fourni n'est pas valide.
+</nierror>
+<nierror code="-63188">
+Cette opération n'est plus supportée.
+</nierror>
+<nierror code="-63187">
+Ce système déporté ne supporte pas les connexions avec d'autres systèmes déportés.
+</nierror>
+<nierror code="-63184">
+Le fichier bitfile sélectionné requiert un driver qui n'a pas pu être chargé ou qui n'est pas valide. Utilisez MAX pour installer le logiciel nécessaire à la cible. Remarquez que si votre projet comporte des modules sous l'élément châssis, des variables définies par l'utilisateur ou des références à l'élément Scan Clock Chassis I/O, vous devez installer le logiciel NI-RIO IO Scan sur la cible.
+</nierror>
+<nierror code="-63183">
+Un port non valide a été spécifié. Le port du serveur RIO doit être entre 0 et 65535, 0 indiquant un port assigné de manière dynamique. Le port 3580 est réservé et ne peut pas être utilisé.
+</nierror>
+<nierror code="-63182">
+Un paramètre non valide a été spécifié pour l'accès au périphérique. Les filtres d'accès aux périphériques RIO ne peuvent contenir que des caractères alphanumériques, des tirets, des tirets bas, des points et des astérisques.
+</nierror>
+<nierror code="-63181">
+L'alias fourni est introuvable.
+</nierror>
+<nierror code="-63180">
+Le nom d'alias n'est pas valide. Un nom d'alias valide doit suivre ces règles :
+
+1) Il ne peut pas être ou contenir un mot réservé.
+2) Il ne peut utiliser que des caractères alphanumériques, des tirets et des tirets bas.
+3) Il ne peut pas être en conflit avec l'alias par défaut d'un autre périphérique. Un alias par défaut est le nom que le driver de périphériques NI-RIO assigne à un périphérique en se basant sur ses attributs si vous n'avez pas assigné d'alias personnalisé dans MAX ou l'API Configuration système. Par exemple, 'PXI1Slot3' est l'alias par défaut du périphérique dans le logement 3 du châssis PXI 1 ; aucun autre périphérique ne peut avoir ce nom d'alias. Reportez-vous à l'Aide LabVIEW pour NI-RIO pour en savoir plus sur les alias.
+</nierror>
+<nierror code="-63171">
+Le périphérique s'est éteint pour se protéger d'une température excessive du FPGA. Vérifiez la ventilation et le refroidissement, et redémarrez le système. Pour éviter cette erreur, surveiller la température du FPGA, le seuil d'arrêt de la température et la marge du FPGA. Au besoin, réduisez la température du FPGA.
+</nierror>
+<nierror code="-63170">
+Le périphérique s'est éteint pour se protéger d'une consommation de courant excessive. Vérifiez la ventilation et le refroidissement, et redémarrez le système. Pour éviter cette erreur, surveiller la consommation de courant, le seuil de coupure d'alimentation et la marge du périphérique. Au besoin, réduisez la consommation de courant du FPGA.
+</nierror>
+<nierror code="-63160">
+Vous devez télécharger le fichier bitfile dans la mémoire flash du périphérique FPGA avant de pouvoir définir le moment où le fichier bitfile est chargé automatiquement. Téléchargez le fichier bitfile dans la mémoire flash, puis réessayez.
+</nierror>
+<nierror code="-63150">
+Une erreur matérielle non spécifiée s'est produite. L'opération n'a pas pu se terminer.
+</nierror>
+<nierror code="-63107">
+Le fichier bitfile que vous essayez d'utiliser n'est pas compatible avec la version de NI-RIO installée sur la cible et/ou sur l'hôte. Mettez la version de NI-RIO à jour sur la cible et/ou l'hôte au niveau de la version utilisée pour compiler le fichier bitfile ou d'une version plus récente. Vous pouvez aussi recompiler le fichier bitfile avec la même version de NI-RIO que celle installée sur la cible et/ou l'hôte.
+</nierror>
+<nierror code="-63106">
+Le fichier bitfile spécifié n'est pas celui utilisé pour générer l'API C. Spécifiez le fichier bitfile d'origine ou regénérez l'API C pour ce fichier bitfile.
+</nierror>
+<nierror code="-63105">
+L'identifiant C/C++ "%s" est déjà utilisé et n'a pas pu être créé.
+</nierror>
+<nierror code="-63104">
+Impossible de convertir "%s" en identifiant C/C++ valide.
+</nierror>
+<nierror code="-63103">
+Préfixe de remplacement non valide. Les préfixes ne peuvent contenir que des caractères alphanumériques et des tirets bas.
+</nierror>
+<nierror code="-63102">
+Répertoire en sortie non valide.
+</nierror>
+<nierror code="-63101">
+Un fichier bitfile .lvbitx est requis. Si vous utilisez un fichier bitfile .lvbitx, il n'est peut-être pas compatible avec le logiciel que vous utilisez. Déterminez quelle version de LabVIEW a été utilisée pour créer le fichier bitfile, mettez votre logiciel au niveau de cette version ou d'une version supérieure et réessayez.
+</nierror>
+<nierror code="-63100">
+Utilisation non valide. Le format doit être :
+
+capigen.exe [-e] [<fichier_bitfile> [<répertoire_de_sortie> [<préfixe_de_remplacement>]]]
+</nierror>
+<nierror code="-63088">
+Impossible d'acquérir plus de régions à partir du FIFO sélectionné. Libérez certaines régions et réessayez.
+</nierror>
+<nierror code="-63087">
+La fonction appelée ne correspond pas au type de données de la propriété spécifiée. Vérifiez que vous appelez la fonction correcte pour la propriété.
+</nierror>
+<nierror code="-63086">
+La fonction FIFO appelée ne peut pas être utilisée lorsque le FIFO est en cours d'exécution. Pour utiliser cette fonction, assurez-vous que le FIFO est arrêté.
+</nierror>
+<nierror code="-63085">
+La fonction FPGA Read/Write Control accède à une commande ou un indicateur dont les données dépassent la taille maximale supportée sur la cible actuelle. Reportez-vous à la documentation du matériel pour voir les limites des types de données de cette cible.
+</nierror>
+<nierror code="-63084">
+Une fonction a été appelée en utilisant une adresse mal alignée. L'adresse doit être un multiple de la taille du type de données.
+</nierror>
+<nierror code="-63083">
+Une fonction Configure FIFO, Stop FIFO, Read FIFO ou Write FIFO a été appelée alors que l'hôte avait acquis les éléments de la FIFO. Libérez tous les éléments acquis avant la configuration, l'arrêt, la lecture ou l'écriture.
+</nierror>
+<nierror code="-63082">
+L'opération n'a pas pu s'effectuer car une autre session accède déjà à la FIFO. Fermez l'autre session puis réessayez.
+</nierror>
+<nierror code="-63081">
+L'appelant n'a pas alloué de buffer de mémoire.
+</nierror>
+<nierror code="-63080">
+Le buffer alloué est trop petit.
+</nierror>
+<nierror code="-63073">
+L'événement spécifié ne s'est pas produit dans les délais spécifiés en millisecondes. Étendez la période de temps ou ignorez si le résultat était attendu.
+</nierror>
+<nierror code="-63072">
+L'événement RIO spécifié n'a pas été activé pour cette session. Cette erreur est causée par une l'appel de Wait on IRQ après Abort.
+</nierror>
+<nierror code="-63071">
+L'événement RIO spécifié a déjà été activé pour cette session.
+</nierror>
+<nierror code="-63070">
+Le type d'événement spécifié n'est pas valide.
+</nierror>
+<nierror code="-63052">
+Les lignes de déclenchement ne sont pas supportées ou activées. Pour PXI, identifiez le contrôleur et le châssis avec MAX.
+</nierror>
+<nierror code="-63051">
+La ligne de déclenchement spécifiée n'est pas réservée dans la session actuelle.
+</nierror>
+<nierror code="-63050">
+La ligne de déclenchement spécifiée est déjà réservée. Consultez les paramètres de déclenchement de MAX ou les réservations de déclenchement pour chaque périphérique du système.
+</nierror>
+<nierror code="-63045">
+La fonctionnalité demandée n'est pas prise en charge lors de l'utilisation d'une session RIO distante.
+
+L'ouverture d'une session RIO distante se produit lorsque la chaîne de ressource est spécifiée comme rio://<nom_d'hôte>/<nom_du_périphérique>.  Une session locale peut être ouverte en spécifiant uniquement le <nom_du_périphérique>.
+</nierror>
+<nierror code="-63044">
+Le serveur RIO est introuvable sur le périphérique déporté spécifié. Vérifiez que le logiciel NI-RIO est installé et que le serveur RIO est lancé et configuré correctement.
+
+Pour NI-RIO 2.3 et versions ultérieures, reportez-vous à Logiciels>>NI-RIO>>NI-RIO Settings sous le système dans MAX.
+Pour les versions antérieures à 2.3, reportez-vous à Logiciel>>NI-VISA>>VISA Options sous le système dans MAX.
+</nierror>
+<nierror code="-63043">
+La session n'est pas valide. Causes possibles : la cible a été réinitialisée ou redémarrée, ou la connexion réseau est entrée en timeout à cause d'une utilisation excessive du processeur. Vérifiez la connexion réseau, diminuez l'utilisation du processeur et le timeout de l'opération qui a échoué. Si le problème continue, allez sur ni.com/info et entrez l'info-code expd6p.
+</nierror>
+<nierror code="-63042">
+Un problème réseau a fait échouer l'opération.
+</nierror>
+<nierror code="-63041">
+La connexion au périphérique déporté a été perdue à cause d'une erreur sur le périphérique déporté. Relancez l'opération. Si le périphérique déporté continue à rapporter cette erreur, vérifiez son alimentation et regardez si la console affiche des messages de diagnostic.
+</nierror>
+<nierror code="-63040">
+Aucune connexion n'a pu être établie avec le périphérique déporté spécifié. Vérifiez que le périphérique est allumé et accessible sur le réseau, et qu'il n'est pas en mode sans échec, que le logiciel NI-RIO est installé et que le serveur RIO est lancé et configuré correctement.
+
+Pour NI-RIO 2.3 et versions ultérieures, reportez-vous à Logiciels>>NI-RIO>>NI-RIO Settings sous le système dans MAX.
+Pour les versions antérieures à 2.3, reportez-vous à Logiciels>>NI-VISA>>VISA Options sous le système dans MAX.
+</nierror>
+<nierror code="-63038">
+Le logiciel NI-RIO de l'hôte n'est pas compatible avec ce logiciel de la cible. Mettez le logiciel NI-RIO à niveau sur l'hôte pour pouvoir vous connecter à cette cible.
+</nierror>
+<nierror code="-63036">
+Impossible d'effectuer l'opération car le périphérique auquel elle accède n'est pas disponible, soit parce qu'il est déconnecté du réseau, soit parce qu'il n'est pas sous tension (le système est passé dans un état à basse alimentation, par ex.). Fermez les sessions RIO FPGA, vérifiez les connexions réseau, USB et d'alimentation, redémarrez le périphérique si besoin est, et ouvrez une nouvelle session RIO.
+</nierror>
+<nierror code="-63035">
+La tentative d'ouverture de session RIO a échoué car le driver n'était pas encore initialisé.
+</nierror>
+<nierror code="-63033">
+L'accès au système déporté a été refusé. Si vous essayez de vous connecter à une cible RT, utilisez MAX pour vérifier les paramètres d'accès au périphérique déporté sous Logiciels>>[ensemble logiciel recommandé, tel que "NI CompactRIO version - date"]>>NI-RIO>>NI-RIO Settings sur le système déporté. Si vous essayez de vous connecter à une cible Linux, vérifiez les paramètres sous /etc/natinst/nirio/nirio.ini sur la cible Linux.
+</nierror>
+<nierror code="-63031">
+L'opération n'a pas pu s'effectuer car une autre session accède déjà au périphérique. Fermez les autres sessions puis réessayez.
+</nierror>
+<nierror code="-63030">
+L'opération a échoué à cause d'une reconfiguration de périphérique. Les sessions multiples vers des périphériques FPGA ne sont pas supportées. Fermez l'autre session et relancez cette opération.
+</nierror>
+<nierror code="-63003">
+Le driver NI-RIO n'a pas pu allouer de la mémoire pour une FIFO. Causes possibles : la profondeur combinée de toutes les FIFO DMA dépasse la profondeur maximale du contrôleur, ou le contrôleur a utilisé toute la mémoire système. Vous pouvez peut-être reconfigurer le contrôleur avec une profondeur de FIFO maximale plus élevée. Pour en savoir plus, reportez-vous à l'article 65OF2ERQ de la Base de connaissances NI.
+</nierror>
+<nierror code="-63002">
+La valeur spécifiée pour DMA FIFO depth est supérieure à la taille maximale supportée par ce système.
+</nierror>
+<nierror code="-63001">
+Le DMA de l'hôte à la cible FPGA n'est pas supporté sur ce système déporté. Utilisez une autre méthode pour l'E/S ou changez le contrôleur associé à la cible FPGA.
+</nierror>
+<nierror code="63033">
+L'accès au système déporté a été refusé. Si vous essayez de vous connecter à une cible RT, utilisez MAX pour vérifier les paramètres d'accès au périphérique déporté sous Logiciels>>[ensemble logiciel recommandé, tel que "NI CompactRIO version - date"]>>NI-RIO>>NI-RIO Settings sur le système déporté. Si vous essayez de vous connecter à une cible Linux, vérifiez les paramètres sous /etc/natinst/nirio/nirio.ini sur la cible Linux.
+</nierror>
+<nierror code="63046">
+Cette session RIO a été ouverte en tant que session distante pour une cible RIO sur la machine locale.  NI recommande d'utiliser une session locale car les sessions distantes utilisent la communication réseau. Par conséquent, vous devrez tenir compte des considérations spécifiques au réseau lors de la conception d'une application avec une connexion RIO à distance.
+
+L'ouverture d'une session RIO distante se produit lorsque la chaîne de ressource est spécifiée comme rio://<nom_d'hôte>/<nom_du_périphérique>.  Une session locale peut être ouverte en spécifiant uniquement le <nom_du_périphérique>. Vous trouverez des informations supplémentaires ici : https://knowledge.ni.com/KnowledgeArticleDetails?id=kA00Z0000004BIiSAM
+</nierror>
+<nierror code="63073">
+L'événement spécifié ne s'est pas produit dans les délais spécifiés en millisecondes.
+</nierror>
+<nierror code="63186">
+Le nombre de sessions RIO ouvertes dépasse la limite recommandée. Pour optimiser les performances, fermez les sessions RIO lorsque vous n'en avez plus besoin.
+</nierror>
+<nierror code="63188">
+Cette opération n'est plus supportée.
+</nierror>
+<nierror code="63194">
+Le logiciel cible est plus ancien que l'hôte mais reste compatible avec ce dernier. Mettez à jour le logiciel de la cible pour obtenir une fonctionnalité complète.
+</nierror>
+<nierror code="65004">
+La voie, l'emplacement ou le numéro de connecteur que vous avez câblé à la méthode n'est pas valide. Changez l'entrée de la méthode de sorte qu'elle corresponde à la configuration du système CompactRIO.
+</nierror>
+<nierror code="65009">
+Le déclenchement PXI sélectionné pour être réservé ou libéré n'est pas valide.  Les déclenchements PXI valides sont ceux de 0 à 7.
+</nierror>
+</nidocument>

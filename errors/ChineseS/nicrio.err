@@ -1,0 +1,819 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="CompactRIO" familyname="CompactRIO">
+</nifamily>
+</nicomment>
+<nierror code="-65636">
+由于用户程序模块类型与目标模块不匹配，操作失败。请验证JSON文件中的模块类型。
+</nierror>
+<nierror code="-65635">
+模块IO转换周期超过扫描引擎扫描周期。  可增加扫描引擎扫描周期或减小模块IO转换周期。
+</nierror>
+<nierror code="-65634">
+所输用于额定相电流属性的值不属于有效范围。有效值大于等于0 A，小于等于NI 9501操作指南和产品规范指定的最大值。
+</nierror>
+<nierror code="-65633">
+“额定相位电流”的值不能为零。请将“额定相位电流”的值更改为有效的非零值。关于该属性的更多信息见LabVIEW帮助文档。
+</nierror>
+<nierror code="-65632">
+由于故障或其他硬件问题，该驱动已被禁用。获取状态方法可用于确定问题源，解决该问题后可执行启用驱动方法。
+</nierror>
+<nierror code="-65631">
+当驱动被禁用时，将无法执行该节点。启用该驱动并再试一次。
+</nierror>
+<nierror code="-65630">
+当驱动被启用时，将无法更新该属性。更新该属性前先禁用该驱动。
+</nierror>
+<nierror code="-65629">
+所输用于每扫描样条属性的值不属于有效范围。有效值为1至65,536。
+</nierror>
+<nierror code="-65628">
+所输用于样条频率或设置点频率属性的值不属于有效范围。有效值为2000至20,000模块时钟滴答。
+</nierror>
+<nierror code="-65627">
+模块处于故障或活动状态时，无法更新该属性。更新该属性之前，请先将模块切换至配置状态。
+</nierror>
+<nierror code="-65626">
+模块处于初始化状态时，无法更新属性。更改任何属性之前，请先切换至配置状态。
+</nierror>
+<nierror code="-65625">
+模块处于初始化或配置状态时，无法使用该方法。执行该方法之前，请先切换至活动或故障状态。
+</nierror>
+<nierror code="-65624">
+必须先清除各故障条件，才能从故障状态切换至活动状态。
+</nierror>
+<nierror code="-65623">
+无法从初始化状态切换至活动或故障状态。初始化状态只能切换为配置状态。
+</nierror>
+<nierror code="-65622">
+无法与该模块通信。请重新插入模块并检查连接。如问题仍未解决，请联系National Instruments。
+</nierror>
+<nierror code="-65621">
+项目的插槽16中包含一个模块，与机箱的插槽16中包含的模块类型不一致。
+</nierror>
+<nierror code="-65620">
+项目的插槽15中包含一个模块，与机箱的插槽15中包含的模块类型不一致。
+</nierror>
+<nierror code="-65619">
+项目的插槽14中包含一个模块，与机箱的插槽14中包含的模块类型不一致。
+</nierror>
+<nierror code="-65618">
+项目的插槽13中包含一个模块，与机箱的插槽13中包含的模块类型不一致。
+</nierror>
+<nierror code="-65617">
+项目的插槽12中包含一个模块，与机箱的插槽12中包含的模块类型不一致。
+</nierror>
+<nierror code="-65616">
+项目的插槽11中包含一个模块，与机箱的插槽11中包含的模块类型不一致。
+</nierror>
+<nierror code="-65615">
+项目的插槽10中包含一个模块，与机箱的插槽10中包含的模块类型不一致。
+</nierror>
+<nierror code="-65614">
+项目的插槽9中包含一个模块，与机箱的插槽9中包含的模块类型不一致。
+</nierror>
+<nierror code="-65613">
+项目的插槽8中包含一个模块，与机箱的插槽8中包含的模块类型不一致。
+</nierror>
+<nierror code="-65612">
+项目的插槽7中包含一个模块，与机箱的插槽7中包含的模块类型不一致。
+</nierror>
+<nierror code="-65611">
+项目的插槽6中包含一个模块，与机箱的插槽6中包含的模块类型不一致。
+</nierror>
+<nierror code="-65610">
+项目的插槽5中包含一个模块，与机箱的插槽5中包含的模块类型不一致。
+</nierror>
+<nierror code="-65609">
+项目的插槽4中包含一个模块，与机箱的插槽4中包含的模块类型不一致。
+</nierror>
+<nierror code="-65608">
+项目的插槽3中包含一个模块，与机箱的插槽3中包含的模块类型不一致。
+</nierror>
+<nierror code="-65607">
+项目的插槽2中包含一个模块，与机箱的插槽2中包含的模块类型不一致。
+</nierror>
+<nierror code="-65606">
+项目的插槽1中包含一个模块，与机箱的插槽1中包含的模块类型不一致。
+</nierror>
+<nierror code="-65605">
+项目的插槽16中包含一个模块，但实际插槽16上没有模块。
+</nierror>
+<nierror code="-65604">
+项目的插槽15中包含一个模块，但实际插槽15上没有模块。
+</nierror>
+<nierror code="-65603">
+项目的插槽14中包含一个模块，但实际插槽14上没有模块。
+</nierror>
+<nierror code="-65602">
+项目的插槽13中包含一个模块，但实际插槽13上没有模块。
+</nierror>
+<nierror code="-65601">
+项目的插槽12中包含一个模块，但实际插槽12上没有模块。
+</nierror>
+<nierror code="-65600">
+项目的插槽11中包含一个模块，但实际插槽11上没有模块。
+</nierror>
+<nierror code="-65599">
+项目的插槽10中包含一个模块，但实际插槽10上没有模块。
+</nierror>
+<nierror code="-65598">
+项目的插槽9中包含一个模块，但实际插槽9上没有模块。
+</nierror>
+<nierror code="-65597">
+项目的插槽8中包含一个模块，但实际插槽8上没有模块。
+</nierror>
+<nierror code="-65596">
+项目的插槽7中包含一个模块，但实际插槽7上没有模块。
+</nierror>
+<nierror code="-65595">
+项目的插槽6中包含一个模块，但实际插槽6上没有模块。
+</nierror>
+<nierror code="-65594">
+项目的插槽5中包含一个模块，但实际插槽5上没有模块。
+</nierror>
+<nierror code="-65593">
+项目的插槽4中包含一个模块，但实际插槽4上没有模块。
+</nierror>
+<nierror code="-65592">
+项目的插槽3中包含一个模块，但实际插槽3上没有模块。
+</nierror>
+<nierror code="-65591">
+项目的插槽2中包含一个模块，但实际插槽2上没有模块。
+</nierror>
+<nierror code="-65590">
+项目的插槽1中包含一个模块，但实际插槽1上没有模块。
+</nierror>
+<nierror code="-65589">
+正在运行的FPGA VI不包含RIO扫描接口所需的DMA FIFO。确保项目中机箱项下的模块可匹配机箱中的模块，并重新编译该FPGA VI。
+</nierror>
+<nierror code="-65587">
+RIO扫描接口必需的比特文件已损坏或丢失。请在LabVIEW Real-Time终端上重新安装软件。
+</nierror>
+<nierror code="-65583">
+检测到共模范围错误。
+</nierror>
+<nierror code="-65582">
+检测到开放热电偶错误。
+</nierror>
+<nierror code="-65581">
+当前运行于CompactRIO机箱的比特文件不支持插槽中的RIO扫描接口。在LabVIEW项目窗口中，可将FPGA终端项下插槽中的模块移动至机箱项下，然后重新编译比特文件。
+</nierror>
+<nierror code="-65580">
+运行在RIO终端的FPGA属性没有足够的专用数字资源支持该模块。
+</nierror>
+<nierror code="-65537">
+检测到的模块不是预期的模块。请确保软件中为模块配置的插槽和模块的实际位置一致。
+</nierror>
+<nierror code="-65536">
+无法与该模块通信。请重新插入模块并检查连接。如机箱处于FPGA接口编程模式，请确保已打开一个FPGA引用，指向bitfile或指向FPGA VI（对于需要通过扫描接口访问的模块，配有扫描接口支持）。
+</nierror>
+<nierror code="-65512">
+该终端某些I/O变量的数据传输不能在规定时间内完成，数据更新可能会延迟。请提高扫描周期的值以避免该问题。
+</nierror>
+<nierror code="-65511">
+RIO扫描接口正在尝试读取的I/O点过多。请在项目中将部分模块从机箱项移至FPGA终端项，或者从应用程序中删除部分用户定义的变量。
+</nierror>
+<nierror code="-65501">
+无法找到尝试访问的用户定义的I/O变量。请确保已打开FPGA VI的FPGA引用句柄或包含尝试访问的变量的比特文件。
+</nierror>
+<nierror code="-65500">
+正在下载一个文件。请等待下载完成。
+</nierror>
+<nierror code="-65499">
+输入参数无效。
+</nierror>
+<nierror code="-65498">
+无法与该模块通信。确认模块已开机并正确插入。
+</nierror>
+<nierror code="-65497">
+上次下载过程可能已经中断。请再次下载程序。
+</nierror>
+<nierror code="-65496">
+由于下载过程错误，模块已超时。请再次下载程序。
+</nierror>
+<nierror code="-65495">
+请检查模块状态。如模块处于用户程序下载状态或未编程模式，请下载用户程序至模块。如模块处于固件下载模式，请下载固件至模块。如模块处于故障安全模式，请解决故障安全状态并重启该模块。如不成功，则不允许该操作。
+</nierror>
+<nierror code="-65494">
+模块未处于正确的模式。请检查模块状态。如模块处于用户程序下载状态模式，请下载用户程序至模块。如模块处于固件下载模式，请下载固件至模块。
+</nierror>
+<nierror code="-65493">
+由于CRC错误，该操作失败。检查模块电源并重新插入模块。
+</nierror>
+<nierror code="-65492">
+由于CRC错误，该操作失败。检查模块电源并重新插入模块。
+</nierror>
+<nierror code="-65491">
+发生了模块的内部软件错误。重新启动并重新插入模块。如不成功，请确认软件和硬件的兼容性。
+</nierror>
+<nierror code="-65490">
+操作不成功。检查模块电源。
+</nierror>
+<nierror code="-65489">
+发生了模块的内部软件错误。请访问ni.com/support以获取National Instruments技术支持，并提供如下信息：C系列功能安全模块发生内部错误。
+</nierror>
+<nierror code="-65488">
+下载的文件已损坏。检查文件并再次下载。
+</nierror>
+<nierror code="-65487">
+下载的文件类型不正确。检查文件并再次下载。
+</nierror>
+<nierror code="-65486">
+固件更新失败。重新启动模块并更新固件。
+</nierror>
+<nierror code="-65485">
+由于固件更新失败，模块被恢复。重新启动模块并更新固件。
+</nierror>
+<nierror code="-65484">
+模块未处于用户程序下载模式。下载固件或重新启动模块。
+</nierror>
+<nierror code="-65483">
+模块未处于固件下载模式。下载用户程序或重新启动模块。
+</nierror>
+<nierror code="-65482">
+固件更新失败。检查模块电源。等待模块恢复并再次更新固件。
+</nierror>
+<nierror code="-65408">
+插槽中模块的模型编号与项目中的编号不匹配，部署操作失败。
+</nierror>
+<nierror code="-65407">
+申请了超过比特文件支持的专用数字插槽数。要启用更多专用数字插槽，请使用LabVIEW FPGA接口模式编译并部署带有指定专用数字插槽数的比特文件。关于FPGA接口模式和编译/部署比特文件的详细信息，见LabVIEW帮助中的NI-RIO章节。
+</nierror>
+<nierror code="-65000">
+没有足够的DMA通道可用于请求数量的FIFO。减少其他任务使用的DMA通道数量或FPGA VI中使用的FIFO数量。
+</nierror>
+<nierror code="65000">
+无法挂载驱动器。  指定设备不存在，或无法识别为可挂载设备。
+</nierror>
+<nierror code="65001">
+未找到分区。  设备上的分区表已损坏，或设备上没有分区。
+</nierror>
+<nierror code="65002">
+非法驱动器句柄。  指定句柄不对应任何活动的已挂载驱动器。
+</nierror>
+<nierror code="65003">
+驱动器已被挂载。  指定设备已被挂载作为一个驱动器。
+</nierror>
+<nierror code="65005">
+指定位置的C系列模块不支持TEDS；或模块未启用TEDS访问。
+</nierror>
+<nierror code="65006">
+模块通信超时。模块忙于执行另一个操作；或LabVIEW无法与模块通信。
+</nierror>
+<nierror code="65007">
+指定通道未检测到TEDS传感器。请确保C系列模块和传感器连接正确。请确保指定位置与传感器位置匹配。
+</nierror>
+<nierror code="65008">
+CompactRIO不支持连接至该通道的TEDS传感器。
+</nierror>
+<nierror code="65010">
+在该操作系统中无法安装或卸载SD卡。
+</nierror>
+<nierror code="65011">
+不能读取数据。不能判定TEDS标准模板类型。验证传感器连接，及传感器是否为标准类型。如问题仍未解决，请选择“读取TEDS调用方法”的待读取数据接线端的全部EEPROM，以读取全部传感器EEPROM。
+</nierror>
+<nierror code="65100">
+输入的数据速率不被选中的模块支持，且过采样时钟频率。
+</nierror>
+<nierror code="65200">
+DIO线访问冲突
+</nierror>
+<nierror code="65201">
+同一个节点存在重复的接线端。
+</nierror>
+<nierror code="65202">
+数字资源访问冲突
+</nierror>
+<nierror code="65203">
+模块时基配置错误
+</nierror>
+<nierror code="65204">
+数字资源访问冲突
+</nierror>
+<nierror code="65205">
+无效的C系列模块配置
+</nierror>
+<nierror code="65206">
+无效的顶层时钟
+</nierror>
+<nierror code="65207">
+数字资源访问冲突
+</nierror>
+<nierror code="65208">
+正在同步扩展机箱中的C系列模块
+</nierror>
+<nierror code="65209">
+无法写入休眠
+</nierror>
+<nierror code="65210">
+无效的顶层时钟
+</nierror>
+<nierror code="65211">
+用户定义变量地址空间达到上限
+</nierror>
+<nierror code="65212">
+缺少定时约束
+</nierror>
+<nierror code="65213">
+不支持R系列
+</nierror>
+<nierror code="65214">
+该版本LabVIEW FPGA不支持NI 9862。
+</nierror>
+<nierror code="65215">
+一个或多个节点被错误置于单周期定时循环内部。  请确保仅将SCTL节点用于单周期定时循环内部。
+</nierror>
+<nierror code="65216">
+一个或多个节点被错误置于单周期定时循环外部。  请确保仅将非SCTL节点用于单周期定时循环外部。
+</nierror>
+<nierror code="65217">
+某个节点在程序框图上被放置多次。
+</nierror>
+<nierror code="65218">
+项目中模块包括无效的模块支持文件。  请联系模块供应商。
+</nierror>
+<nierror code="65219">
+发生内部错误。  请联系模块供应商。
+</nierror>
+<nierror code="65220">
+发生内部错误。  请联系模块供应商。
+</nierror>
+<nierror code="65221">
+发生内部错误。  请联系模块供应商。
+</nierror>
+<nierror code="65222">
+发生内部错误。  请联系模块供应商。
+</nierror>
+<nierror code="65223">
+发生内部错误。  请联系模块供应商。
+</nierror>
+<nierror code="65224">
+DIO线访问与同步寄存器数量为0冲突。
+</nierror>
+<nierror code="65225">
+使用LabVIEW FPGA Xilinx Vivado工具时，NI cRIO-9068机箱不再支持NI 9802。
+</nierror>
+<nierror code="65300">
+无法与设备通信。请将sbRIO系统断电，并确保设备已建立安全连接。
+</nierror>
+<nierror code="65301">
+设备未就绪执行DO更新时尝试了该操作。DO更新已被延迟或门控。
+</nierror>
+<nierror code="65400">
+FPGA终端上有个FPGA VI正在运行；或者FPGA终端上已经加载一个FPGA VI。
+</nierror>
+<nierror code="65401">
+当前版本的LabVIEW和NI-RIO不支持检测到的C系列模块。不支持的模块为：%s。
+</nierror>
+<nierror code="65402">
+NI-RIO发生内部软件错误。请通过ni.com/support联系National Instruments以获取技术支持。
+</nierror>
+<nierror code="65403">
+当搜索C系列模块时发生不可预期错误。
+
+确保已正确设置LabVIEW项目。
+</nierror>
+<nierror code="65404">
+所选控制器包含未配置的IP地址(0.0.0.0)。如控制器处于联机状态，可在Measurement & Automation Explorer(MAX)中对其进行配置，然后检查并确保LabVIEW中的IP地址与MAX中的IP地址一致。如控制器处于脱机状态，则无法检测到已连接的终端和设备，但可以添加新的脱机终端和设备。
+</nierror>
+<nierror code="65405">
+被部署配置的模块不在机箱内。
+</nierror>
+<nierror code="65406">
+被部署配置的模块的模块与机箱中的模块型号不符。
+</nierror>
+<nierror code="65407">
+申请了超过比特文件支持的专用数字插槽数。要启用更多专用数字插槽，请使用LabVIEW FPGA接口模式编译并部署带有指定专用数字插槽数的比特文件。关于FPGA接口模式和编译/部署比特文件的详细信息，见LabVIEW帮助中的NI-RIO章节。
+</nierror>
+<nierror code="65409">
+该模块无法兼容该版本NI RIO。  请联系模块供应商获取技术支持。
+</nierror>
+<nierror code="65536">
+无法与该模块通信。请重新插入模块并检查连接。
+</nierror>
+<nierror code="65537">
+检测到的模块不是预期的模块。请确保软件中为模块配置的插槽和模块的实际位置一致。
+</nierror>
+<nierror code="65538">
+操作未在时间限制内完成。请确保模块未处于忙碌状态，且系统配置正确。
+</nierror>
+<nierror code="65539">
+输入函数丢失了一个或多个数据点。请确保循环执行速度能达到模块数据速率。
+</nierror>
+<nierror code="65540">
+I/O资源未处于通信模式。执行该操作之前，必须启动通信模式。
+</nierror>
+<nierror code="65541">
+I/O资源未处于通信模式中。执行该操作前，必须停止通信模式。
+</nierror>
+<nierror code="65542">
+1路或多路通道检测出开环。检查模块连接。
+</nierror>
+<nierror code="65543">
+电源电压已超出范围。检查电源电压与模块的连接。
+</nierror>
+<nierror code="65544">
+1个或多个通道处于过电流保护模式。连接至通道的设备传入通道的电流超过允许的范围。请检查是否存在短路，外部设备是否正常。
+</nierror>
+<nierror code="65545">
+一个或一组输入参数无效。
+</nierror>
+<nierror code="65546">
+C系列硬件不支持应用程序调用的某个特性。
+</nierror>
+<nierror code="65547">
+检测到过多CAN总线错误帧。更多信息请参考“错误接线端”说明。
+</nierror>
+<nierror code="65548">
+1路或多路通道处于过电流或过电压保护模式。检查可能导致通道出现过电压或过电流的接线端。
+</nierror>
+<nierror code="65549">
+发生常规/未定义错误。请确保插卡正常，且卡门已关闭。如错误再次出现，请对该卡运行CHKDSK。
+</nierror>
+<nierror code="65550">
+文件系统发生问题。请移除SD卡并运行CHKDSK。
+</nierror>
+<nierror code="65551">
+SD卡被RT占用。请在RT卸载该卡后重试。
+</nierror>
+<nierror code="65552">
+SD卡未就绪。请确保插卡正常，且卡门已关闭。
+</nierror>
+<nierror code="65553">
+无法同时打开SD插槽盖并访问该卡。
+</nierror>
+<nierror code="65554">
+指定文件不在卡上。
+</nierror>
+<nierror code="65555">
+“打开”方法试图打开一个新文件以便写入数据，但磁盘上已存在一个同名文件。
+</nierror>
+<nierror code="65556">
+读取/写入方法试图访问的文件未按要求的模式打开。
+</nierror>
+<nierror code="65557">
+已预留。
+</nierror>
+<nierror code="65558">
+关闭方法试图关闭一个尚未打开的文件。
+</nierror>
+<nierror code="65559">
+该方法试图打开SD卡上一个已经打开的文件。  该设备仅支持对一个文件执行一次打开操作。  返回该错误的原因也可能是：卡上文件打开时，试图非法调用“删除文件”或“获取文件大小”方法。
+</nierror>
+<nierror code="65560">
+试图分配存储失败，文件系统已满。
+</nierror>
+<nierror code="65561">
+超出根目录项的上限(512)，操作失败。
+</nierror>
+<nierror code="65562">
+“读取”方法试图读取的位置已超出文件结尾。出错的可能原因是：方法在读取文件结尾时采用U16或U32数据类型，而文件的实际字节数（根据目录报告）不是读取数据类型对应字节数的整数倍。
+</nierror>
+<nierror code="65563">
+SD卡的格式化出错。请确保SD卡已正确格式化为FAT 16文件系统。
+</nierror>
+<nierror code="65564">
+该方法尝试打开只读文件用于写入操作。已预留。
+</nierror>
+<nierror code="65565">
+SD Cmd CRC错误。已保留
+</nierror>
+<nierror code="65566">
+SD读取数据CRC错误。已保留
+</nierror>
+<nierror code="65567">
+SD写入数据CRC错误。已保留
+</nierror>
+<nierror code="65568">
+SD读取数据超时。已保留
+</nierror>
+<nierror code="65569">
+SD响应超时。已保留
+</nierror>
+<nierror code="65570">
+串口模块外接电源错误：最近一次模块访问后发生外接电源错误。确保已在模块前面板的VSUP和COM接线端正确连接电源(8 - 28 VDC)。
+</nierror>
+<nierror code="65571">
+串口模块过温错误：最近一次模块访问后发生过温错误。  检查I/O端口的故障条件或外部电压。
+</nierror>
+<nierror code="65572">
+串口模块中断错误：发生串口中断（RXD输入在SPACE处保留了至少一个字节时间帧）。
+</nierror>
+<nierror code="65573">
+串口模块帧错误：正在读取的数据发生帧错误。检查串行线缆连接以及模块配置选项（如波特率、停止位和数据位）。
+</nierror>
+<nierror code="65574">
+串口模块奇偶校验错误：正在读取的数据发生奇偶校验错误。请确保已正确配置模块奇偶。
+</nierror>
+<nierror code="65575">
+串口模块过速错误：正在读取的数据发生过速错误。请确保已正确配置模块流控制。
+</nierror>
+<nierror code="65576">
+未使用串行模块错误
+</nierror>
+<nierror code="65577">
+至少一个通道检测到开放热电偶错误。  检查模块连接。
+</nierror>
+<nierror code="65578">
+至少一个通道的共模电压超出可接受的范围。  请检查端子上可能导致通道上过压的故障条件。
+</nierror>
+<nierror code="65579">
+模块在过电流保护模式。检查可能导致通道出现过电流的接线端。
+</nierror>
+<nierror code="65580">
+比特文件不支持该9802命令。  尝试使用更高版本的LabVIEW FPGA编译一个新的比特文件。
+</nierror>
+<nierror code="65581">
+9802支持未被编译进入该比特文件中。
+</nierror>
+<nierror code="65582">
+由于I/O节点中一个或多个模块准备数据操作未就绪，无法完成该操作。可能操作尚未开始。  使用“开始”和“停止”节点重启模块操作。
+</nierror>
+<nierror code="65583">
+模块无法完成该操作。重新插入模块并检查连接。如仍未解决该问题，请联系National Instruments技术支持。
+</nierror>
+<nierror code="65584">
+由于该设备正在连接至主机，将无法关闭电源。
+</nierror>
+<nierror code="65585">
+开路热电偶检测当前已被禁用。检查缓存状态方法无法精确报告是否存在未连接的热电偶。
+</nierror>
+<nierror code="65586">
+由于用户控制的I/O采样正在被重置，将无法完成该操作。
+</nierror>
+<nierror code="65588">
+该模块尚未初始化。  如使用用户控制的I/O采样函数，必须先调用重置I/O方法函数并等待其执行结束，然后调用其他用户控制的I/O采样函数。
+</nierror>
+<nierror code="65635">
+固定函数的输入参数的自测属性超出范围。  有效范围见相关模块的文档。
+</nierror>
+<nierror code="65636">
+一个或多个通道超出范围。  检查模块连接。
+</nierror>
+<nierror code="65637">
+一个或多个通道存在开路或短路。检查模块连接。
+</nierror>
+<nierror code="65638">
+PPS补偿属性的值超出范围。  有效范围见相关模块的文档。
+</nierror>
+<nierror code="65639">
+提供坐标中至少存在一个坐标超出范围。  纬度必须在-90°至90°之间。  经度必须在-180°至180°之间。关于高度的合适范围，请参考模块的帮助文档。
+</nierror>
+<nierror code="65640">
+模块固件与该版本的NI RIO软件无法兼容。  请访问ni.com查看固件更新说明。
+</nierror>
+<nierror code="65641">
+用于GPS C系列的所选配置无效。将“固定式（带有预设位置）”设置为GPS模式时，必须设置预设位置。
+</nierror>
+<nierror code="65642">
+无法发送该触发。确保该触发的源已选择“无（输入）”，并且未被配置用于时钟或其他模块的触发器。
+</nierror>
+<nierror code="65643">
+等待触发方法无法在配置用于时钟的触发线上执行。选择其他触发线或在C系列模块属性对话框中更改时钟连线配置。
+</nierror>
+<nierror code="65644">
+由于该模块上已为输出配置最大数量的端口线，端口线方向更改失败。关于同步端口线输出的最大数量的信息见模块帮助文档。
+</nierror>
+<nierror code="65645">
+指定线不支持所选源。关于用于每个线的有效源的列表见相关的模块帮助文档。
+</nierror>
+<nierror code="65646">
+指定线尚未配置为导入时钟或者已配置为其它线的源。
+</nierror>
+<nierror code="65647">
+由于指定的线已被配置用于时钟或触发，无法改变该线的配置。
+</nierror>
+<nierror code="65648">
+由于线已被配置用于时钟，指定线不支持所选源。如需导出所选源的时钟，将指定线的源设置为时钟。
+</nierror>
+<nierror code="65649">
+由于该触发线未被配置为任意端口线的源，该模块将不会导出生成的触发。
+</nierror>
+<nierror code="65650">
+由于导入过采样时钟尚未就绪，无法完成该操作。确保已正确配置系统。
+</nierror>
+<nierror code="65651">
+由于指定触发的源未被配置为导出时钟，无法将其设置为时钟。如需从指定触发输出时钟，必须在C系列模块属性对话框中更改时钟连线配置。
+</nierror>
+<nierror code="65652">
+在模块尚未准备执行本操作时，尝试更新DO。DO更新已被延迟或被门控。
+</nierror>
+<nierror code="65653">
+模块正在重启，操作未完成。
+</nierror>
+<nierror code="65654">
+一个或多个通道存在开路或激励故障。检查模块连接。
+</nierror>
+<nierror code="65655">
+一个或多个通道丢失了一个输出采样。  使用“停止”和“开始”节点重启模块操作。
+</nierror>
+<nierror code="65656">
+信号衰减水平无效。  关于衰减水平的有效范围见模块相关文档。
+</nierror>
+<nierror code="65657">
+RF中心频率无效。  关于中心频率值的有效范围见模块相关文档。
+</nierror>
+<nierror code="65658">
+LO In频率无效。  关于LO In频率的有效范围见模块相关文档。
+</nierror>
+<nierror code="65659">
+RF中心频率和LO In频率值的指定组合无效。  关于配置参数的详细信息见模块相关文档。
+</nierror>
+<nierror code="65660">
+模块当前处于配置状态时，LO Out信号不能被禁用。  关于LO Out信号的详细信息见模块相关文档。
+</nierror>
+<nierror code="65661">
+IQ数据中检测到过流。  请降低输入电源电压或将参考电压配置为更高的值。
+</nierror>
+<nierror code="65662">
+采样时钟PLL未锁定，会导致模块之间采样不同步。  关于导致采样时钟锁定不当的详细信息，请参考模块文档。
+</nierror>
+<nierror code="65663">
+LO PLL未锁定，会导致模块之间采样不同步。  关于导致LO锁定不当的详细信息，请参考模块文档。
+</nierror>
+<nierror code="65664">
+模块在数据操作模式时，无法运行启动节点。  运行启动节点之前，先运行停止节点。
+</nierror>
+<nierror code="65665">
+选中的数据速率无效，因此采集无法开始。根据定时模式和启用通道数，选择允许的数据速率。
+</nierror>
+<nierror code="65666">
+记录触发前采样长于记录采样，因此采集无法开始。选择短于记录采样的记录触发前采样。
+</nierror>
+<nierror code="65667">
+从记录获取数据或使用硬件触发器之后，I/O节点无法采集数据。重启采集以访问连续数据。
+</nierror>
+<nierror code="65668">
+不存在可获取的数据。获取采样之前触发记录。
+</nierror>
+<nierror code="65669">
+不存在更多可以被触发的记录。触发新记录之前获取所有采样记录。
+</nierror>
+<nierror code="65670">
+采集记录时，采样时钟PLL丢失。关于导致采样时钟锁定不当的详细信息，请参考模块文档。
+</nierror>
+<nierror code="65671">
+选中通道不支持触发。通过配置子面板启用选中通道。
+</nierror>
+<nierror code="65672">
+无法选择指定的时基频率。验证导入该时基的所有模块支持指定频率。
+</nierror>
+<nierror code="65673">
+该插槽的编程模式配置不正确。确认将该插槽配置为在LabVIEW FPGA环境下运行。
+</nierror>
+<nierror code="65674">
+无法读取用户程序文件。您正在使用的功能安全编辑器的版本比当前版本的NI-RIO更新，或者文件已损坏。确保已安装最新版本的NI-RIO。
+</nierror>
+<nierror code="65675">
+与板载I/O通道通信时发生内部错误。请联系NI。
+</nierror>
+<nierror code="65676">
+输出函数更新数据点的速度不及预期。旧数据点重复出现。请确保循环执行速度能达到模块数据速率。
+</nierror>
+<nierror code="65677">
+PWM和/或抖动分频数超出支持的范围。有关支持的分频数，请参阅帮助文件。
+</nierror>
+<nierror code="65678">
+当前配置下，通道PWM速率大于最大允许速率。请在增加数据速率前增加通道PWM分频数。
+</nierror>
+<nierror code="65679">
+无法与模块通信。请重新插入模块并检查连接。
+</nierror>
+<nierror code="65680">
+模块不存在。请确保模块已连接到正确的插槽。
+</nierror>
+<nierror code="65681">
+任务未运行时尝试运行该操作。执行该操作前，必须启动任务。
+</nierror>
+<nierror code="65682">
+任务运行时尝试运行该操作。执行该操作前，必须停止任务。
+</nierror>
+<nierror code="65683">
+无法执行请求的操作，因为指定的资源被另一个任务预留。尝试开始此操作前停止正在运行的任务。
+</nierror>
+<nierror code="65684">
+此操作会影响指定通道以外的其他通道。详细信息请参阅ni.com/manuals上的硬件文档。
+</nierror>
+<nierror code="65685">
+输出函数以比模块实际更新速率更快的速率更新数据点。采样点被删除。确保程序框图上没有到同一个通道的多个并行输出写入节点。
+</nierror>
+<nierror code="65700">
+无法与模块通信。请重新插入模块并检查连接。
+</nierror>
+<nierror code="65701">
+检测到的模块不是预期的模块。请确保软件中为模块配置的插槽和模块的实际位置一致。
+</nierror>
+<nierror code="65702">
+当前运行于CompactRIO机箱的FPGA属性不支持插槽中的RIO扫描接口。
+</nierror>
+<nierror code="65703">
+不支持对远程模块进行访问
+</nierror>
+<nierror code="65704">
+无法解析RSI模块的URL
+</nierror>
+<nierror code="65705">
+该RSI模块不接受该通道的配置
+</nierror>
+<nierror code="65706">
+9025的转换最小间隔时间值必须至少为4 us
+</nierror>
+<nierror code="65707">
+9219数字阈值必须在0到60之间
+</nierror>
+<nierror code="65708">
+无效的方向字符串。
+</nierror>
+<nierror code="65709">
+电流限制值必须在0到5.1之间
+</nierror>
+<nierror code="65710">
+过流更新周期的值必须在2到255之间。
+</nierror>
+<nierror code="65711">
+通过编程更改9219的通道模式是无效的。
+</nierror>
+<nierror code="65712">
+数字输入模块不能配置为PWM或从计数器。
+</nierror>
+<nierror code="65713">
+数字输出模块不能配置为计数器或正交编码器。
+</nierror>
+<nierror code="65714">
+RTD常量A的值必须在0.001到0.01之间
+</nierror>
+<nierror code="65715">
+RTD常量B的值必须在-1E-8到-1E-6之间。
+</nierror>
+<nierror code="65716">
+RTD常量C的值必须在-1E-12到-1E-11之间
+</nierror>
+<nierror code="65717">
+RTD Ro常量必须在0至1000之间
+</nierror>
+<nierror code="65718">
+无效的输入配置更改
+</nierror>
+<nierror code="65719">
+枚举值超出范围
+</nierror>
+<nierror code="65720">
+模块不支持该属性，或模块的当前配置下该属性无效。
+</nierror>
+<nierror code="65721">
+“重置计数器”方法仅可用于对配置为边沿计数的计数器进行重置。
+</nierror>
+<nierror code="65722">
+模块不支持该方法，或模块的当前配置下该方法无效。
+</nierror>
+<nierror code="65723">
+控制器引擎在当前模式下，无法对模块进行配置。
+</nierror>
+<nierror code="65724">
+EtherCAT模块不支持专有数字配置。
+</nierror>
+<nierror code="65725">
+使用值超出范围。
+</nierror>
+<nierror code="65726">
+未找到该属性的配置信息。  在读取该属性前可能先要设置该属性。
+</nierror>
+<nierror code="65727">
+无效插槽号
+</nierror>
+<nierror code="65728">
+该版本EtherCAT软件不支持该操作。
+</nierror>
+<nierror code="65729">
+该信息当前不可用。  更改为活动模式或刷新模块。
+</nierror>
+<nierror code="65730">
+期望的文件是4字节对齐。检查文件的大小。
+</nierror>
+<nierror code="65731">
+文件正在下载。读取IOV将返回过期数据。写入IOV可能不成功。
+</nierror>
+<nierror code="65732">
+请检查模块状态。如模块处于用户程序下载状态或未编程模式，请下载用户程序至模块。如模块处于固件下载模式，请下载固件至模块。如模块处于故障安全模式，请解决故障安全状态并重启该模块。
+</nierror>
+<nierror code="65733">
+IOV数据无法正确更新。检查模块电源。
+</nierror>
+<nierror code="65734">
+在同一条通道上同时使用扫描写入和直接写入可能会导致竞态。
+</nierror>
+<nierror code="65735">
+固件更新后重新启动模块。
+</nierror>
+<nierror code="65736">
+模块固件可能与当前的CompactRIO驱动程序不兼容。将CompactRIO驱动程序更新到最新版本。
+</nierror>
+<nierror code="65737">
+模块处于未编程模式。读取和写入DO将不会成功。请下载一个用户程序到模块。
+</nierror>
+<nierror code="65738">
+输入值超出范围。请确保输入值介于0和0.0219116之间
+</nierror>
+</nidocument>

@@ -1,0 +1,819 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="CompactRIO" familyname="CompactRIO">
+</nifamily>
+</nicomment>
+<nierror code="-65636">
+Der Vorgang ist fehlgeschlagen, weil der Modultyp des Benutzerprogramms nicht mit dem Zielmodul übereinstimmt. Überprüfen Sie den Modultyp in der JSON-Datei.
+</nierror>
+<nierror code="-65635">
+Die Umwandlungsdauer ist größer als die Scan-Periode der Scan-Engine.  Erhöhen Sie die Scan-Periode oder reduzieren Sie die Umwandlungsdauer des Moduls.
+</nierror>
+<nierror code="-65634">
+Der Wert für die Eigenschaft "Rated Phase Current" liegt außerhalb des gültigen Bereichs. Gültige Werte sind Werte größer als oder gleich 0 A bzw. kleiner als oder gleich dem Maximum, das in den Spezifikationen für NI 9501 angegeben ist.
+</nierror>
+<nierror code="-65633">
+"Rated Phase Current" darf nicht 0 sein. Ändern Sie den Wert. Weitere Informationen zu dieser Eigenschaft erhalten Sie in der Dokumentation.
+</nierror>
+<nierror code="-65632">
+Das Laufwerk ist aufgrund eines Fehlers oder Hardwareproblems deaktiviert. Bestimmen Sie mit der Methode "Get Status" die Ursache des Problems, beheben Sie es und führen Sie dann die Methode "Enable Drive" aus.
+</nierror>
+<nierror code="-65631">
+Dieser Knoten kann nicht mit aktiviertem Laufwerk ausgeführt werden. Aktivieren Sie das Laufwerk und versuchen Sie es erneut.
+</nierror>
+<nierror code="-65630">
+Diese Eigenschaft kann nicht mit aktiviertem Laufwerk aktualisiert werden. Deaktivieren Sie das Laufwerk.
+</nierror>
+<nierror code="-65629">
+Der Wert für die Eigenschaft "Splines per Scan" liegt außerhalb des gültigen Bereichs. Gültige Werte sind 1 bis 65.536.
+</nierror>
+<nierror code="-65628">
+Der Wert für die Eigenschaft "Spline Rate" oder "Setpoint Rate" liegt außerhalb des gültigen Bereichs. Gültige Werte sind 2000 bis 20.000 Modultakte.
+</nierror>
+<nierror code="-65627">
+Diese Eigenschaft kann nicht aktualisiert werden, während sich das Modul im aktiven Zustand oder im Fehlerzustand befindet. Wechseln Sie in den Konfigurationszustand, um die Eigenschaft zu ändern.
+</nierror>
+<nierror code="-65626">
+Eigenschaften können nicht aktualisiert werden, während das Modul initialisiert wird. Wechseln Sie in den Konfigurationszustand, um Eigenschaften zu ändern.
+</nierror>
+<nierror code="-65625">
+Diese Methode kann nicht verwendet werden, während das Modul initialisiert oder konfiguriert wird. Wechseln Sie in den aktiven Zustand oder den Fehlerzustand.
+</nierror>
+<nierror code="-65624">
+Sie können erst in den aktiven Zustand wechseln, nachdem die Fehlerbedingung behoben wurde.
+</nierror>
+<nierror code="-65623">
+Sie können nicht von der Initialisierung in den aktiven Zustand oder den Fehlerzustand wechseln. Die einzige gültige Zustandsänderung ist von der Initialisierung zur Konfiguration.
+</nierror>
+<nierror code="-65622">
+Kommunikation mit dem Modul ist nicht möglich. Stecken Sie das Modul erneut ein und prüfen Sie die Verbindungen. Sollte das Problem weiter bestehen, setzen Sie sich mit National Instruments in Verbindung.
+</nierror>
+<nierror code="-65621">
+Das Projekt enthält ein Modul in Slot 16, das nicht dem Typ des Moduls im Slot 16 des Chassis entspricht.
+</nierror>
+<nierror code="-65620">
+Das Projekt enthält ein Modul in Slot 15, das nicht dem Typ des Moduls im Slot 15 des Chassis entspricht.
+</nierror>
+<nierror code="-65619">
+Das Projekt enthält ein Modul in Slot 14, das nicht dem Typ des Moduls im Slot 14 des Chassis entspricht.
+</nierror>
+<nierror code="-65618">
+Das Projekt enthält ein Modul in Slot 13, das nicht dem Typ des Moduls im Slot 13 des Chassis entspricht.
+</nierror>
+<nierror code="-65617">
+Das Projekt enthält ein Modul in Slot 12, das nicht dem Typ des Moduls im Slot 12 des Chassis entspricht.
+</nierror>
+<nierror code="-65616">
+Das Projekt enthält ein Modul in Slot 11, das nicht dem Typ des Moduls im Slot 11 des Chassis entspricht.
+</nierror>
+<nierror code="-65615">
+Das Projekt enthält ein Modul in Slot 10, das nicht dem Typ des Moduls im Slot 10 des Chassis entspricht.
+</nierror>
+<nierror code="-65614">
+Das Projekt enthält ein Modul in Slot 9, das nicht dem Typ des Moduls im Slot 9 des Chassis entspricht.
+</nierror>
+<nierror code="-65613">
+Das Projekt enthält ein Modul in Slot 8, das nicht dem Typ des Moduls im Slot 8 des Chassis entspricht.
+</nierror>
+<nierror code="-65612">
+Das Projekt enthält ein Modul in Slot 7, das nicht dem Typ des Moduls im Slot 7 des Chassis entspricht.
+</nierror>
+<nierror code="-65611">
+Das Projekt enthält ein Modul in Slot 6, das nicht dem Typ des Moduls im Slot 6 des Chassis entspricht.
+</nierror>
+<nierror code="-65610">
+Das Projekt enthält ein Modul in Slot 5, das nicht dem Typ des Moduls im Slot 5 des Chassis entspricht.
+</nierror>
+<nierror code="-65609">
+Das Projekt enthält ein Modul in Slot 4, das nicht dem Typ des Moduls im Slot 4 des Chassis entspricht.
+</nierror>
+<nierror code="-65608">
+Das Projekt enthält ein Modul in Slot 3, das nicht dem Typ des Moduls im Slot 3 des Chassis entspricht.
+</nierror>
+<nierror code="-65607">
+Das Projekt enthält ein Modul in Slot 2, das nicht dem Typ des Moduls im Slot 2 des Chassis entspricht.
+</nierror>
+<nierror code="-65606">
+Das Projekt enthält ein Modul in Slot 1, das nicht dem Typ des Moduls im Slot 1 des Chassis entspricht.
+</nierror>
+<nierror code="-65605">
+Das Projekt enthält ein Modul in Slot 16, der aber leer ist.
+</nierror>
+<nierror code="-65604">
+Das Projekt enthält ein Modul in Slot 15, der aber leer ist.
+</nierror>
+<nierror code="-65603">
+Das Projekt enthält ein Modul in Slot 14, der aber leer ist.
+</nierror>
+<nierror code="-65602">
+Das Projekt enthält ein Modul in Slot 13, der aber leer ist.
+</nierror>
+<nierror code="-65601">
+Das Projekt enthält ein Modul in Slot 12, der aber leer ist.
+</nierror>
+<nierror code="-65600">
+Das Projekt enthält ein Modul in Slot 11, der aber leer ist.
+</nierror>
+<nierror code="-65599">
+Das Projekt enthält ein Modul in Slot 10, der aber leer ist.
+</nierror>
+<nierror code="-65598">
+Das Projekt enthält ein Modul in Slot 9, der aber leer ist.
+</nierror>
+<nierror code="-65597">
+Das Projekt enthält ein Modul in Slot 8, der aber leer ist.
+</nierror>
+<nierror code="-65596">
+Das Projekt enthält ein Modul in Slot 7, der aber leer ist.
+</nierror>
+<nierror code="-65595">
+Das Projekt enthält ein Modul in Slot 6, der aber leer ist.
+</nierror>
+<nierror code="-65594">
+Das Projekt enthält ein Modul in Slot 5, der aber leer ist.
+</nierror>
+<nierror code="-65593">
+Das Projekt enthält ein Modul in Slot 4, der aber leer ist.
+</nierror>
+<nierror code="-65592">
+Das Projekt enthält ein Modul in Slot 3, der aber leer ist.
+</nierror>
+<nierror code="-65591">
+Das Projekt enthält ein Modul in Slot 2, der aber leer ist.
+</nierror>
+<nierror code="-65590">
+Das Projekt enthält ein Modul in Slot 1, der aber leer ist.
+</nierror>
+<nierror code="-65589">
+Das ausgeführte FPGA-VI enthält nicht die DMA-FIFOs, die für die RIO-Scan-Schnittstelle erforderlich sind. Vergewissern Sie sich, dass die Module im Projekt unter "Chassis" den Modulen im Chassis entsprechen, und kompilieren Sie das FPGA-VI erneut.
+</nierror>
+<nierror code="-65587">
+Die für die RIO-Scan-Schnittstelle erforderliche Bitdatei ist nicht vorhanden oder fehlerhaft. Installieren Sie die Software auf dem LabVIEW Realtime-System erneut.
+</nierror>
+<nierror code="-65583">
+Gleichtaktspannungsfehler.
+</nierror>
+<nierror code="-65582">
+Es wurde ein offenes Thermoelement erkannt.
+</nierror>
+<nierror code="-65581">
+Die derzeit auf dem CompactRIO-Chassis ausgeführte Bitdatei ist nicht für die Unterstützung des RIO Scan Interface in diesem Slot konfiguriert. Verschieben Sie das Modul im Fenster "LabVIEW-Projekt" aus dem Slot unter "FPGA target" nach "Chassis" und kompilieren Sie die Bitdatei anschließend erneut.
+</nierror>
+<nierror code="-65580">
+Das auf dem RIO-System ausgeführte FPGA hat nicht genügend digitale Ressourcen, um dieses Modul zu unterstützen.
+</nierror>
+<nierror code="-65537">
+Das erkannte Modul entspricht nicht dem erwarteten Modul. Prüfen Sie, ob die Einstellung in der Software dem tatsächlichen Steckplatz des Moduls entspricht.
+</nierror>
+<nierror code="-65536">
+Kommunikation mit dem Modul ist nicht möglich. Stecken Sie das Modul erneut ein und prüfen Sie die Verbindungen. Wenn sich das Chassis im FPGA-Modus befindet, vergewissern Sie sich, dass eine FPGA-Referenz auf eine Bitdatei oder ein FPGA-VI mit Unterstützung von "Scan Interface" für das Modul, auf das über "Scan Interface" zugegriffen werden soll, geöffnet ist.
+</nierror>
+<nierror code="-65512">
+Für einige I/O-Variablen auf diesem System konnte die Datenübertragung in der zugewiesenen Zeit nicht abgeschlossen werden und die Aktualisierung einiger Werte wurde dadurch ggf. verzögert. Erhöhen Sie die Scan-Periode, um dieses Problem zu vermeiden.
+</nierror>
+<nierror code="-65511">
+Das RIO-Scan-Interface versucht, zu viele I/O-Werte zu lesen. Verschieben Sie einige Module vom Chassis-Objekt zum FPGA-System oder löschen Sie einige benutzerdefinierte Variablen.
+</nierror>
+<nierror code="-65501">
+Die benutzerdefinierte I/O-Variable, auf die Sie zugreifen möchten, kann nicht gefunden werden. Vergewissern Sie sich, dass eine FPGA-Referenz auf ein FPGA-VI oder eine Bitdatei mit der gewünschten Variablen geöffnet ist.
+</nierror>
+<nierror code="-65500">
+Eine Datei wird heruntergeladen. Warten Sie, bis der Download abgeschlossen ist.
+</nierror>
+<nierror code="-65499">
+Der Eingangsparameter ist ungültig.
+</nierror>
+<nierror code="-65498">
+Kommunikation mit dem Modul ist nicht möglich. Überprüfen Sie, ob das Modul eingeschaltet und ordnungsgemäß angeschlossen ist.
+</nierror>
+<nierror code="-65497">
+Der letzte Download-Vorgang wurde möglicherweise unterbrochen. Laden Sie das Programm erneut herunter.
+</nierror>
+<nierror code="-65496">
+Am Modul ist aufgrund eines Fehlers beim Herunterladen ein Timeout aufgetreten. Laden Sie das Programm erneut herunter.
+</nierror>
+<nierror code="-65495">
+Bitte überprüfen Sie den Modulstatus. Wenn sich das Modul im Modus "User Program Download" oder "Unprogrammed" befindet, laden Sie ein Benutzerprogramm auf das Modul herunter. Wenn sich das Modul im Modus "Firmware Download" befindet, laden Sie die Firmware auf das Modul herunter. Wenn sich das Modul im Modus "Fail-safe" befindet, beheben Sie das Problem und starten Sie das Modul erneut. Wenn das nicht funktioniert, dann ist die Operation nicht zulässig.
+</nierror>
+<nierror code="-65494">
+Das Modul befindet sich nicht im richtigen Modus. Bitte überprüfen Sie den Modulstatus. Wenn sich das Modul im Modus "User Program Download" befindet, laden Sie ein Benutzerprogramm auf das Modul herunter. Wenn sich das Modul im Modus "Firmware Download" befindet, laden Sie die Firmware auf das Modul herunter.
+</nierror>
+<nierror code="-65493">
+Der Vorgang ist aufgrund eines CRC-Fehlers fehlgeschlagen. Überprüfen Sie die Stromversorgung und setzen Sie das Modul wieder ein.
+</nierror>
+<nierror code="-65492">
+Der Vorgang ist aufgrund eines CRC-Fehlers fehlgeschlagen. Überprüfen Sie die Stromversorgung und setzen Sie das Modul wieder ein.
+</nierror>
+<nierror code="-65491">
+Es trat ein interner Softwarefehler beim Modul auf. Setzen Sie das Modul ein und starten Sie es erneut. Wenn das nicht funktioniert, prüfen Sie die Kompatibilität der Hardware und der Software.
+</nierror>
+<nierror code="-65490">
+Die Operation ist fehlgeschlagen. Überprüfen Sie die Stromversorgung des Moduls.
+</nierror>
+<nierror code="-65489">
+Es trat ein interner Softwarefehler beim Modul auf. Wenden Sie sich über ni.com/support unter Angabe folgender Informationen an den technischen Support von National Instruments: Das funktionale Sicherheitsmodul der C-Serie hat interne Fehler.
+</nierror>
+<nierror code="-65488">
+Die heruntergeladene Datei ist fehlerhaft. Überprüfen Sie die Datei und laden Sie sie erneut herunter.
+</nierror>
+<nierror code="-65487">
+Der Typ der heruntergeladenen Datei ist nicht korrekt. Überprüfen Sie die Datei und laden Sie sie erneut herunter.
+</nierror>
+<nierror code="-65486">
+Firmware konnte nicht aktualisiert werden. Starten Sie das Modul neu und aktualisieren Sie die Firmware.
+</nierror>
+<nierror code="-65485">
+Das Modul wurde aufgrund eines Firmware-Update-Fehlers wiederhergestellt. Starten Sie das Modul neu und aktualisieren Sie die Firmware.
+</nierror>
+<nierror code="-65484">
+Das Modul befindet sich nicht im Modus "User Program Download". Laden Sie eine Firmware herunter oder starten Sie das Modul neu.
+</nierror>
+<nierror code="-65483">
+Das Modul befindet sich nicht im Modus "Firmware Download". Laden Sie ein Benutzerprogramm herunter oder starten Sie das Modul neu.
+</nierror>
+<nierror code="-65482">
+Firmware konnte nicht aktualisiert werden. Überprüfen Sie die Stromversorgung des Moduls. Warten Sie, bis das Modul wiederhergestellt ist, und aktualisieren Sie die Firmware erneut.
+</nierror>
+<nierror code="-65408">
+Die Übertragung schlug fehl, da die Modellnummer des Moduls im Slot nicht dem Projekt entspricht.
+</nierror>
+<nierror code="-65407">
+Sie haben mehr digitale Slots angefordert als von der Bitdatei unterstützt werden. Zum Aktivieren von weiteren digitalen Slots kompilieren und verteilen Sie eine Bitdatei mit der gewünschten Anzahl an digitalen Slots mit Hilfe des Modus "LabVIEW FPGA Interface". Weitere Informationen zum Modus "LabVIEW FPGA Interface" und zum Kompilieren und Verteilen von Bitdateien finden Sie in der "LabVIEW Help for NI-RIO".
+</nierror>
+<nierror code="-65000">
+Für die gewünschte Anzahl von FIFOs stehen nicht genügend DMA-Kanäle zur Verfügung. Reduzieren Sie die Anzahl der DMA-Kanäle, die von anderen Tasks verwendet werden, oder die Anzahl der im FPGA-VI verwendeten FIFOs.
+</nierror>
+<nierror code="65000">
+Laufwerk kann nicht eingerichtet werden.  Das angegebene Gerät ist entweder nicht vorhanden oder wird nicht als einrichtbares Gerät erkannt.
+</nierror>
+<nierror code="65001">
+Keine Partitionen gefunden.  Die Partitionierungstabelle des Geräts ist beschädigt oder das Gerät enthält keine Partitionen.
+</nierror>
+<nierror code="65002">
+Ungültiges Laufwerk-Handle.  Das angegebene Handle repräsentiert kein aktives eingerichtetes Laufwerk.
+</nierror>
+<nierror code="65003">
+Laufwerk ist bereits eingerichtet.  Das angegebene Gerät ist bereits als Laufwerk eingerichtet worden.
+</nierror>
+<nierror code="65005">
+Das C-Serien-Modul an der angegebenen Position unterstützt entweder kein TEDS oder der TEDS-Zugriff ist für das Modul nicht aktiviert.
+</nierror>
+<nierror code="65006">
+Timeout bei der Kommunikation mit dem Modul. Das Modul ist entweder damit beschäftigt eine andere Aktion auszuführen oder LabVIEW ist nicht in der Lage mit dem Modul zu kommunizieren.
+</nierror>
+<nierror code="65007">
+Am angegebenen Kanal wurde kein TEDS-Sensor erkannt. Vergewissern Sie sich, dass das Modul der C-Serie und der Sensor ordnungsgemäß angeschlossen sind. Vergewissern Sie sich, dass die angegebene Position mit der des Sensors übereinstimmt.
+</nierror>
+<nierror code="65008">
+CompactRIO unterstützt den mit diesem Kanal verbundenen TEDS-Sensor nicht.
+</nierror>
+<nierror code="65010">
+Dieses Betriebssystem unterstützt keine SD-Karten.
+</nierror>
+<nierror code="65011">
+Daten konnten nicht gelesen werden. Der Typ der TEDS-Standardvorlage lässt sich nicht ermitteln. Prüfen Sie die Verbindungen mit den Sensoren. Vergewissern Sie sich, dass der Sensor dem Standardtyp entspricht. Wenn das Problem weiterhin besteht, lesen Sie den gesamten EEPROM aus. Wählen Sie dazu im Methodenknoten "Read TEDS" am Anschluss "Data to Read" die Option "Entire EEPROM" aus.
+</nierror>
+<nierror code="65100">
+Die angegebene Datenrate wird nicht vom ausgewählten Modul und der Überabtastrate unterstützt.
+</nierror>
+<nierror code="65200">
+Konflikt beim Zugriff auf DIO-Leitung.
+</nierror>
+<nierror code="65201">
+Doppelte Anschlüsse im selben Knoten.
+</nierror>
+<nierror code="65202">
+Konflikt beim Zugriff auf digitale Ressource.
+</nierror>
+<nierror code="65203">
+Konfigurationsfehler bei Modulzeitbasis
+</nierror>
+<nierror code="65204">
+Konflikt beim Zugriff auf digitale Ressource.
+</nierror>
+<nierror code="65205">
+Ungültige Konfiguration eines Moduls der C-Serie.
+</nierror>
+<nierror code="65206">
+Ungültige Haupttaktbasis.
+</nierror>
+<nierror code="65207">
+Konflikt beim Zugriff auf digitale Ressource.
+</nierror>
+<nierror code="65208">
+Module der C-Serie im Erweiterungschassis werden synchronisiert
+</nierror>
+<nierror code="65209">
+Es kann nicht in Sleep geschrieben werden
+</nierror>
+<nierror code="65210">
+Ungültiger Haupttakt
+</nierror>
+<nierror code="65211">
+Maximal zulässige Anzahl benutzerdefinierter Variablen wurde erreicht
+</nierror>
+<nierror code="65212">
+Fehlende Timing-Bedingungen
+</nierror>
+<nierror code="65213">
+Für R-Serie nicht unterstützt
+</nierror>
+<nierror code="65214">
+NI 9862 wird in dieser Version von LabVIEW nicht unterstützt.
+</nierror>
+<nierror code="65215">
+Mindestens ein Knoten wurde fälschlicherweise in eine Single Cycle Timed Loop (SCTL) eingefügt.  Es dürfen nur SCTL-Knoten in solche Schleifen eingefügt werden.
+</nierror>
+<nierror code="65216">
+Mindestens ein Knoten wurde fälschlicherweise außerhalb einer Single Cycle Timed Loop (SCTL) eingefügt.  Es dürfen nur Nicht-SCTL-Knoten außerhalb solcher Schleifen eingefügt werden.
+</nierror>
+<nierror code="65217">
+Ein bestimmter Knoten wurde mehrfach in das Diagramm eingefügt.
+</nierror>
+<nierror code="65218">
+Ein Modul in Ihrem Projekt enthält ungültige Modulhilfsdateien.  Wenden Sie sich an Hersteller des Moduls.
+</nierror>
+<nierror code="65219">
+Es trat ein interner Fehler auf.  Wenden Sie sich an Hersteller des Moduls.
+</nierror>
+<nierror code="65220">
+Es trat ein interner Fehler auf.  Wenden Sie sich an Hersteller des Moduls.
+</nierror>
+<nierror code="65221">
+Es trat ein interner Fehler auf.  Wenden Sie sich an Hersteller des Moduls.
+</nierror>
+<nierror code="65222">
+Es trat ein interner Fehler auf.  Wenden Sie sich an Hersteller des Moduls.
+</nierror>
+<nierror code="65223">
+Es trat ein interner Fehler auf.  Wenden Sie sich an Hersteller des Moduls.
+</nierror>
+<nierror code="65224">
+Konflikt beim Zugriff auf eine DIO-Leitung mit Zero Synchronizing Registers
+</nierror>
+<nierror code="65225">
+Geräte des Typs NI 9802 werden nicht mehr in NI-cRIO-9068-Chassis unterstützt, die LabVIEW FPGA Xilinx Vivado Tools verwenden.
+</nierror>
+<nierror code="65300">
+Kommunikation mit dem Gerät ist nicht möglich. Schalten Sie das sbRIO-System aus und prüfen Sie die Geräteverbindungen.
+</nierror>
+<nierror code="65301">
+Ein DO-Update konnte nicht durchgeführt werden, da das Gerät noch nicht bereit war. Das DO-Update wurde verzögert oder gegattert.
+</nierror>
+<nierror code="65400">
+das FPGA-Zielsystem wird bereits verwendet.
+</nierror>
+<nierror code="65401">
+Mindestens ein erkanntes Modul der C-Serie wird von den aktuellen LabVIEW- und NI-RIO-Versionen nicht unterstützt. Die nicht unterstützten Module lauten: %s.
+</nierror>
+<nierror code="65402">
+Es trat ein interner Softwarefehler in NI-RIO auf. Wenden Sie sich an den technischen Support von National Instruments (ni.com/support).
+</nierror>
+<nierror code="65403">
+Beim Erkennen eines Moduls der C-Serie trat ein unerwarteter Fehler auf.
+
+Vergewissern Sie sich, dass das Projekt ordnungsgemäß konfiguriert ist.
+</nierror>
+<nierror code="65404">
+Der ausgewählte Controller weist eine nicht konfigurierte IP-Adresse (0.0.0.0) auf. Wenn der Controller online ist, konfigurieren Sie ihn im Measurement & Automation Explorer (MAX), und vergewissern Sie sich, dass die IP-Adresse in LabVIEW mit der im MAX übereinstimmt. Ist der Controller offline, werden Zielsysteme und Geräte nicht erkannt. Sie können aber neue Zielsysteme und Geräte offline hinzufügen.
+</nierror>
+<nierror code="65405">
+Das Modell, dessen Konfiguration verteilt wurde, befindet sich nicht im Chassis.
+</nierror>
+<nierror code="65406">
+Das Modell, dessen Konfiguration verteilt wurde, entspricht nicht dem Modell im Chassis.
+</nierror>
+<nierror code="65407">
+Sie haben mehr digitale Slots angefordert als von der Bitdatei unterstützt werden. Zum Aktivieren von weiteren digitalen Slots kompilieren und verteilen Sie eine Bitdatei mit der gewünschten Anzahl an digitalen Slots mit Hilfe des Modus "LabVIEW FPGA Interface". Weitere Informationen zum Modus "LabVIEW FPGA Interface" und zum Kompilieren und Verteilen von Bitdateien finden Sie in der "LabVIEW Help for NI-RIO".
+</nierror>
+<nierror code="65409">
+Das Modul ist nicht kompatibel mit dieser Version von NI-RIO.  Wenden Sie sich an Hersteller des Moduls.
+</nierror>
+<nierror code="65536">
+Kommunikation mit dem Modul ist nicht möglich. Stecken Sie das Modul erneut ein und prüfen Sie die Verbindungen.
+</nierror>
+<nierror code="65537">
+Das erkannte Modul entspricht nicht dem erwarteten Modul. Prüfen Sie, ob die Einstellung in der Software dem tatsächlichen Steckplatz des Moduls entspricht.
+</nierror>
+<nierror code="65538">
+Die Operation konnte nicht rechtzeitig vollendet werden. Vergewissern Sie sich, dass das Modul bereit und das System korrekt konfiguriert ist.
+</nierror>
+<nierror code="65539">
+Die Eingabefunktion verpasste einen oder zwei Datenpunkte. Vergewissern Sie sich, dass die Schleife bezüglich der Moduldatenrate schnell genug ausgeführt wird.
+</nierror>
+<nierror code="65540">
+Die I/O-Ressource befindet sich nicht im Kommunikationsmodus. Sie müssen den Kommunikationsmodus starten, bevor Sie diese Operation durchführen können.
+</nierror>
+<nierror code="65541">
+Die I/O-Ressource befindet sich im Kommunikationsmodus. Sie müssen den Kommunikationsmodus stoppen, bevor Sie diese Operation durchführen können.
+</nierror>
+<nierror code="65542">
+Ein oder mehrere Kanäle haben eine offene Stromschleife erkannt. Prüfen Sie die Modulverbindungen.
+</nierror>
+<nierror code="65543">
+Der Spannungspegel der Spannungsversorgung liegt außerhalb des zulässigen Bereichs. Prüfen Sie die Versorgungsspannung und die Modulverbindungen.
+</nierror>
+<nierror code="65544">
+Ein oder mehrere Kanäle befinden sich im Überstrom-Schutzmodus. Das angeschlossene Gerät liefert mehr Strom an den Kanal/die Kanäle als erlaubt. Prüfen Sie auf mögliche Kurzschlüsse oder externe Geräteprobleme.
+</nierror>
+<nierror code="65545">
+Ein Eingangsparameter oder eine Parameterkombination ist ungültig.
+</nierror>
+<nierror code="65546">
+Ihre Anwendung verfügt über Funktionen, die von der Hardware der C-Serie nicht unterstützt werden.
+</nierror>
+<nierror code="65547">
+Es wurden zu viele CAN-Bus-Error-Frames gefunden. Weitere Hinweise dazu finden Sie in der Beschreibung der Fehler-Anschlüsse.
+</nierror>
+<nierror code="65548">
+Ein oder mehrere Kanäle befinden sich im Überstrom- oder Überspannungsschutzmodus. Überprüfen die Anschlüsse, um festzustellen, ob die Überspannung oder der Überstrom möglicherweise von einem Schaltungsfehler herrührt.
+</nierror>
+<nierror code="65549">
+Ein allgemeiner oder undefinierter Fehler ist aufgetreten. Vergewissern Sie sich, dass die Karte ordnungsgemäß eingesteckt und die Blende geschlossen ist. Wenn der Fehler noch einmal auftritt, prüfen Sie die Karte mit CHKDSK.
+</nierror>
+<nierror code="65550">
+Im Dateisystem wurde ein Problem gefunden. Nehmen Sie die SD-Karte heraus und starten Sie CHKDSK.
+</nierror>
+<nierror code="65551">
+Die SD-Karte wird gerade von RT verwendet. Versuchen Sie es noch einmal, wenn die Karte nicht mehr im Dateisystem erscheint.
+</nierror>
+<nierror code="65552">
+Die SD-Karte ist nicht bereit. Vergewissern Sie sich, dass die Karte ordnungsgemäß eingesteckt und die Blende geschlossen ist.
+</nierror>
+<nierror code="65553">
+Sie können nicht gleichzeitig den Verschluss der SD-Karte öffnen und auf die Karte zugreifen.
+</nierror>
+<nierror code="65554">
+Auf der Karte gibt es keine Datei mit diesem Namen.
+</nierror>
+<nierror code="65555">
+Die Methode "Open" hat versucht, eine neue Datei zu öffnen, aber es gibt bereits eine Datei mit dem ausgewählten Namen.
+</nierror>
+<nierror code="65556">
+Eine Methode zum Lesen oder Schreiben hat versucht, auf eine im falschen Modus geöffnete Datei zuzugreifen.
+</nierror>
+<nierror code="65557">
+Reserviert.
+</nierror>
+<nierror code="65558">
+Eine Methode hat versucht, eine Datei zu schließen, die nicht geöffnet war.
+</nierror>
+<nierror code="65559">
+Eine Methode hat versucht, eine Datei auf der SD-Karte zu öffnen, während schon eine andere Datei geöffnet war.  Bei diesem Gerät darf jedoch immer nur eine Datei geöffnet sein.  Dieser Fehler wird auch ausgegeben, wenn bei einer geöffneten Datei auf der Karte die Methode "DeleteFile" oder "GetFileSize" aufgerufen wird.
+</nierror>
+<nierror code="65560">
+Es konnte kein Speicher reserviert werden, da das Dateisystem bereits voll ist.
+</nierror>
+<nierror code="65561">
+Das Stammverzeichnis darf nur maximal 512 Einträge enthalten.
+</nierror>
+<nierror code="65562">
+Eine Lesemethode hat beim Auslesen das Ende einer Datei überschritten. Das ist möglicherweise dadurch passiert, dass die Methode das Ende einer Datei mit einem U16- oder U32-Datentyp ausgelesen hat, die tatsächliche (aus dem Verzeichnis ermittelte) Byte-Anzahl jedoch kein ganzzahliges Vielfaches der Byte-Anzahl des ausgelesenen Datentyps ist.
+</nierror>
+<nierror code="65563">
+Mit dem Format der SD-Karte gibt es ein Problem. Vergewissern Sie sich, dass die SD-Karte mit einem gültigen FAT16-Dateisystem formatiert wurde.
+</nierror>
+<nierror code="65564">
+Eine Methode hat versucht, eine schreibgeschützte Datei zu überschreiben. Reserviert.
+</nierror>
+<nierror code="65565">
+CRC-Fehler bei SD-Befehl. Reserviert
+</nierror>
+<nierror code="65566">
+CRC-Fehler beim Auslesen der SD-Karte. Reserviert
+</nierror>
+<nierror code="65567">
+CRC-Fehler beim Beschreiben der SD-Karte. Reserviert
+</nierror>
+<nierror code="65568">
+Timeout beim Auslesen der SD-Karte. Reserviert
+</nierror>
+<nierror code="65569">
+Timeout beim Warten auf die SD-Karte. Reserviert
+</nierror>
+<nierror code="65570">
+Fehler bei der externen Spannungsversorgung für serielles Modul: Nach dem letzten Zugriff auf das Modul trat ein Fehler bei der externen Spannungsversorgung auf. Vergewissern Sie sich, dass die Spannungsversorgung (8?28 V DC) ordnungsgemäß an den VSUP- und COM-Anschlüssen am Frontpanel des Moduls anliegt.
+</nierror>
+<nierror code="65571">
+Überhitzungsfehler am seriellen Modul: Nach dem letzten Zugriff auf das Modul trat ein Überhitzungsfehler auf.  Prüfen Sie das Modul auf fehlerhafte Bedingungen oder Fremdspannungen am I/O-Port.
+</nierror>
+<nierror code="65572">
+Unterbrechungsfehler am seriellem Modul: Es trat eine Unterbrechung am seriellem Modul auf (der RXD-Eingang stand für mindestens einem Zeitrahmen von einem Byte auf SPACE).
+</nierror>
+<nierror code="65573">
+Framing-Fehler an seriellem Modul: In den ausgelesenen Daten trat ein Framing-Fehler auf. Prüfen Sie die seriellen Kabelverbindungen und die Modulkonfiguration (z. B. Baudrate, Stoppbits, Datenbits).
+</nierror>
+<nierror code="65574">
+Paritätsfehler an seriellem Modul: In den ausgelesenen Daten trat ein Paritätsfehler auf. Vergewissern Sie sich, dass die Modulparität ordnungsgemäß konfiguriert ist.
+</nierror>
+<nierror code="65575">
+Überlauffehler an seriellem Modul: In den ausgelesenen Daten trat ein Überlauffehler auf. Vergewissern Sie sich, dass die Modulablaufsteuerung ordnungsgemäß konfiguriert ist.
+</nierror>
+<nierror code="65576">
+Nicht genutzter Fehler für serielle Module
+</nierror>
+<nierror code="65577">
+An mindestens einem Kanal wurde ein offenes Thermoelement erkannt.  Prüfen Sie die Modulverbindungen.
+</nierror>
+<nierror code="65578">
+Die allgemeine Spannung liegt für mindestens einen Kanal außerhalb des gültigen Bereichs.  Prüfen Sie die Anschlüsse auf fehlerhafte Bedingungen, die einen falschen Spannungswert an den Kanälen verursachen könnten.
+</nierror>
+<nierror code="65579">
+Das Modul befindet sich im Überstromschutzmodus. Prüfen Sie die Anschlüsse auf fehlerhafte Bedingungen, die einen ungültigen Stromwert verursachen könnten.
+</nierror>
+<nierror code="65580">
+Die Bitdatei unterstützt diesen 9802-Befehl nicht.  Kompilieren Sie eine neue Bitdatei mit einer neueren Version von LabVIEW FPGA.
+</nierror>
+<nierror code="65581">
+Diese Bitdatei enthält keine 9802-Unterstützung.
+</nierror>
+<nierror code="65582">
+Die Operation konnte nicht abgeschlossen werden, da mindestens ein Modul im I/O-Knoten nicht für Datenoperationen bereit ist. Der Vorgang wurde möglicherweise nicht gestartet.  Setzen Sie die Operation des Moduls mit Hilfe der Start- und Stopp-Knoten zurück.
+</nierror>
+<nierror code="65583">
+Das Modul konnte die Operation nicht ausführen. Stecken Sie das Modul erneut ein und prüfen Sie die Verbindungen. Sollte sich das Problem nicht beheben lassen, setzen Sie sich mit dem technischen Support von National Instruments in Verbindung.
+</nierror>
+<nierror code="65584">
+Das Gerät kann nicht ausgeschaltet werden, da es mit einem Host verbunden ist.
+</nierror>
+<nierror code="65585">
+Die Erkennung offener Thermoelemente ist momentan deaktiviert. Die Methode "Check Cached Status" kann somit nicht feststellen, ob es unverbundene Thermoelemente gibt.
+</nierror>
+<nierror code="65586">
+Die Operation konnte nicht abgeschlossen werden, da momentan ein I/O-Sampling-Reset stattfindet.
+</nierror>
+<nierror code="65588">
+Das Modul ist nicht initialisiert.  Wenn Sie mit den benutzerdefinierten I/O-Sampling-Funktionen arbeiten, muss erst die Funktion "Reset I/O Method" aufgerufen und auf deren Abschluss gewartet werden, bevor andere Sampling-Funktionen verwendet werden können.
+</nierror>
+<nierror code="65635">
+Der Eingangsparameter für die Eigenschaft "Number of Fixes for Self-survey" liegt außerhalb des gültigen Bereichs.  Gültige Werte erhalten Sie in der Moduldokumentation.
+</nierror>
+<nierror code="65636">
+Mindestens ein Kanal ist außerhalb des zulässigen Bereichs.  Prüfen Sie die Modulverbindungen.
+</nierror>
+<nierror code="65637">
+Mindestens ein Kanal hat eine offene Schleife oder einen Kurzschluss. Prüfen Sie die Modulverbindungen.
+</nierror>
+<nierror code="65638">
+Der Wert für die Eigenschaft "PPS Compensation" ist ungültig.  Gültige Werte erhalten Sie in der Moduldokumentation.
+</nierror>
+<nierror code="65639">
+Mindestens eine der angegebenen Koordinaten liegt außerhalb des zulässigen Bereichs.  Für den Breitengrad gilt folgende Relation: -90° <= Breitengrad <= 90°.  Für den Längengrad gilt: -180° < Längengrad <= 180°. Angaben zu gültigen Bereichen erhalten Sie in der Dokumentation zum Modul.
+</nierror>
+<nierror code="65640">
+Die Firmware des Moduls ist nicht mit dieser Version der NI-RIO-Software kompatibel.  Besuchen Sie ni.com für Hinweise zur Aktualisierung der Firmware.
+</nierror>
+<nierror code="65641">
+Die ausgewählte Konfiguration für das GPS-Modul der C-Serie ist ungültig. Wenn als GPS-Modus "Stationary with Preset Location" ausgewählt ist, muss die "Preset Location" angegeben werden.
+</nierror>
+<nierror code="65642">
+Der Trigger konnte nicht gesendet werden. Vergewissern Sie sich, dass, dass "None (Input)" nicht als Leitungsquelle des Triggers ausgewählt ist und der Trigger keinen Takt oder keinen Trigger eines anderen Moduls überträgt.
+</nierror>
+<nierror code="65643">
+Die Methode "Wait On Trigger" kann nicht an einer Trigger-Leitung ausgeführt werden, die einen Takt überträgt. Wählen Sie eine andere Trigger-Leitung oder ändern Sie die Taktkonfiguration im Eigenschaftendialog für Module der C-Serie.
+</nierror>
+<nierror code="65644">
+Die Richtung der Portleitung konnte nicht geändert werden, da bereits die maximale Anzahl an Portleitungen als Ausgänge am Modul konfiguriert ist. Hinweise zur maximal möglichen Anzahl an simultanen Portleitungsausgängen erhalten Sie in der Dokumentation zum Modul.
+</nierror>
+<nierror code="65645">
+Die ausgewählte Quelle wird von der angegebenen Leitung nicht unterstützt. Hinweise zu gültigen Quellen für alle Leitungen erhalten Sie in der Dokumentation zum Modul.
+</nierror>
+<nierror code="65646">
+Die angegebene Leitung ist entweder nicht als Takteingang eingestellt oder dient bereits als Quelle für eine andere Leitung.
+</nierror>
+<nierror code="65647">
+Die Konfiguration der angegebenen Leitung kann nicht geändert werden, da die Leitung für die Übertragung eines Takts oder eines Triggers konfiguriert ist.
+</nierror>
+<nierror code="65648">
+Die angegebene Leitung unterstützt die ausgewählte Quelle nicht, da die Quelle als Taktgeber konfiguriert ist. Nur wenn Sie in der Software die Quelle der Leitung auf einen Taktgeber einstellen, können Sie den Takt über die Leitung ausgeben.
+</nierror>
+<nierror code="65649">
+Das Modul hat den erzeugten Trigger nicht exportiert, da diese Trigger-Leitung nicht als Quelle für die Portleitungen konfiguriert ist.
+</nierror>
+<nierror code="65650">
+Die Operation konnte nicht abgeschlossen werden, da der anliegende Überabtasttakt nicht bereit war. Vergewissern Sie sich, dass das System ordnungsgemäß konfiguriert ist.
+</nierror>
+<nierror code="65651">
+Die Quelle des angegebenen Triggers kann nicht auf "Takt" eingestellt werden, da sie nicht zur Taktausgabe konfiguriert ist. Ändern Sie im Dialogfeld "C Series Module Properties" die Einstellung zur Signalführung des Takts, so dass angegebene Anschluss als Taktgeber dienen kann.
+</nierror>
+<nierror code="65652">
+Ein DO-Update konnte nicht durchgeführt werden, da das Modul noch nicht bereit war. Das DO-Update wurde verzögert oder gegattert.
+</nierror>
+<nierror code="65653">
+Die Operation wurde nicht abgeschlossen, da ein Modul zurückgesetzt wird.
+</nierror>
+<nierror code="65654">
+Auf mindestens einem Kanal liegt eine offene Schleife oder ein Speisungsfehler vor. Prüfen Sie die Modulverbindungen.
+</nierror>
+<nierror code="65655">
+Mindestens ein Kanal hat ein Ausgangs-Sample verpasst.  Setzen Sie die Operation des Moduls mit Hilfe der Start- und Stopp-Knoten zurück.
+</nierror>
+<nierror code="65656">
+Der Signaldämpfungspegel ist ungültig.  Den gültigen Bereich für Dämpfungswerte finden Sie in der Dokumentation zum Modul.
+</nierror>
+<nierror code="65657">
+Die RF-Mittenfrequenz ist ungültig.  Den gültigen Bereich für Mittenfrequenzen finden Sie in der Dokumentation zum Modul.
+</nierror>
+<nierror code="65658">
+Die LO-Eingangsfrequenz ist ungültig.  Den gültigen Bereich für LO-Eingangsfrequenzen finden Sie in der Dokumentation zum Modul.
+</nierror>
+<nierror code="65659">
+Die angegebene Kombination der Werte für RF-Mittenfrequenz und LO-Eingangsfrequenz ist ungültig.  Informationen zur Konfiguration dieser Parameter erhalten Sie in der Dokumentation zum Modul.
+</nierror>
+<nierror code="65660">
+Das Signal "LO Out" kann nicht deaktiviert werden, während sich das Modul im derzeit konfigurierten Zustand befindet.  Informationen zur Konfiguration des LO-Out-Signals erhalten Sie in der Dokumentation zum Modul.
+</nierror>
+<nierror code="65661">
+In den IQ-Daten trat ein Überlauf auf.  Reduzieren Sie den Eingangsleistungspegel oder konfigurieren Sie den Bezugspegel auf einen höheren Wert.
+</nierror>
+<nierror code="65662">
+Die Phasenregelschleife für den Sample-Takt konnte keine Phasenverriegelung erzielen. Das kann dazu führen, dass Samples auf mehreren Modulen nicht korrekt synchronisiert sind.  Mögliche Gründe für abweichende Phasenlage eines Sample-Takts sind in der Dokumentation des Moduls beschrieben.
+</nierror>
+<nierror code="65663">
+Eine LO-Phasenregelschleife konnte keine Phasenverriegelung erzielen. Das kann dazu führen, dass Samples auf mehreren Modulen nicht korrekt synchronisiert sind.  Weitere Informationen zu den Ursachen, warum eine LO-Phasenregelschleife keine Phasenverriegelung erzielen kann, finden Sie in der Dokumentation des Moduls.
+</nierror>
+<nierror code="65664">
+Das Modul kann den Startknoten (Start Node) nicht ausführen, während es sich im Betriebsmodus (Operation Mode) befindet.  Sorgen Sie dafür, dass der Stoppknoten vor dem Startknoten ausgeführt wird.
+</nierror>
+<nierror code="65665">
+Die ausgewählte Datenrate ist ungültig. Die Erfassung kann daher nicht gestartet werden. Wählen Sie basierend auf dem Timing-Modus und der Anzahl aktivierter Kanäle eine zulässige Datenrate aus.
+</nierror>
+<nierror code="65666">
+Die eingestellte Anzahl der Samples vor dem Trigger ist größer als die Gesamtanzahl der Samples im Datensatz. Die Erfassung kann daher nicht gestartet werden. Wählen Sie eine geringere Anzahl an Samples vor dem Trigger aus.
+</nierror>
+<nierror code="65667">
+Nach dem Auslesen von Daten aus einem Datensatz oder nach Verwendung von Hardware-Triggern kann der I/O-Knoten keine Daten erfassen. Starten Sie die Erfassung erneut, um auf nachfolgende Daten zuzugreifen.
+</nierror>
+<nierror code="65668">
+Es ist sind keine auszulesenden Daten vorhanden. Sie müssen erst die Erfassung eines Datensatzes triggern, bevor Samples ausgelesen werden können.
+</nierror>
+<nierror code="65669">
+Es können keine weiteren Datensätze getriggert werden. Alle aufgezeichneten Datensätze müssen erst ausgelesen werden, bevor die Erfassung eines neuen Datensatzes getriggert werden kann.
+</nierror>
+<nierror code="65670">
+Die Sample-Takt-Phasenregelschleife ging beim Erfassen des Datensatzes verloren. Mögliche Gründe für abweichende Phasenlage eines Sample-Takts sind in der Dokumentation des Moduls beschrieben.
+</nierror>
+<nierror code="65671">
+Am ausgewählten Kanal wird kein Trigger unterstützt. Aktivieren Sie den ausgewählten Kanal mit Hilfe des Konfigurations-Unterpanels.
+</nierror>
+<nierror code="65672">
+Die angegebene Zeitbasis-Frequenz kann nicht ausgewählt werden. Überprüfen Sie, ob alle Module, welche diese Zeitbasis importieren, die angegebene Frequenz unterstützen.
+</nierror>
+<nierror code="65673">
+Der Slot ist nicht für den richtigen Programmiermodus konfiguriert. Vergewissern Sie sich, dass der Slot zur Ausführung von "LabVIEW FPGA" konfiguriert ist.
+</nierror>
+<nierror code="65674">
+Die Benutzerprogrammdatei konnte nicht gelesen werden. Entweder ist die Version des Funktionssicherheits-Editors, die Sie verwenden, neuer als die aktuelle Version von NI-RIO, oder die Datei ist beschädigt. Überprüfen Sie, dass die neueste Version von NI-RIO installiert ist.
+</nierror>
+<nierror code="65675">
+Bei der Kommunikation mit den I/O-Kanälen der Hardware ist ein interner Fehler aufgetreten. Bitte wenden Sie sich an National Instruments.
+</nierror>
+<nierror code="65676">
+Die Ausgabefunktion kann die Daten nicht mit der erwarteten Geschwindigkeit erzeugen. Daher werden alte Daten wiederholt. Vergewissern Sie sich, dass die Schleife bezüglich der Moduldatenrate schnell genug ausgeführt wird.
+</nierror>
+<nierror code="65677">
+Der PWM- und/oder der Dither-Teiler liegt außerhalb des zulässigen Bereichs. Informationen zu den unterstützten Werten für den Teiler finden Sie in der Hilfedatei.
+</nierror>
+<nierror code="65678">
+Bei der vorliegenden Konfiguration überschreitet die Kanal-PWM die maximal zulässige Rate. Erhöhen Sie den Kanal-PWM-Teiler vor dem Steigern der Datenrate.
+</nierror>
+<nierror code="65679">
+Kommunikation mit dem Modul ist nicht möglich. Stecken Sie das Modul erneut ein und prüfen Sie die Verbindungen.
+</nierror>
+<nierror code="65680">
+Modul nicht vorhanden. Überprüfen Sie, ob sich das Modul im korrekten Slot befindet.
+</nierror>
+<nierror code="65681">
+Es wurde versucht, den Vorgang zu starten, während der Task nicht ausgeführt wurde. Sie müssen zuerst den Task starten, bevor Sie diesen Vorgang aufrufen können.
+</nierror>
+<nierror code="65682">
+Es wurde versucht, den Vorgang zu starten, während der Task ausgeführt wurde. Sie müssen zuerst den Task stoppen, bevor Sie diesen Vorgang aufrufen können.
+</nierror>
+<nierror code="65683">
+Der Vorgang konnte nicht ausgeführt werden, da die angegebene Ressource von einem anderen Task reserviert ist. Stoppen Sie den Task vor dem Aufrufen dieses Vorgangs.
+</nierror>
+<nierror code="65684">
+Dieser Vorgang betrifft mehr Kanäle als angegeben. Siehe dazu die Anleitung zu Ihrem Gerät unter ni.com/manuals.
+</nierror>
+<nierror code="65685">
+Die Rate der Ausgabefunktion übersteigt die Ausgaberate des Moduls. Dadurch kommt es zu Datenverlust. Vergewissern Sie sich, dass Ihr Diagramm nicht mehrere Schreibknoten enthält, die parallel Daten an denselben Kanal übermitteln.
+</nierror>
+<nierror code="65700">
+Kommunikation mit dem Modul ist nicht möglich. Stecken Sie das Modul erneut ein und prüfen Sie die Verbindungen.
+</nierror>
+<nierror code="65701">
+Das erkannte Modul entspricht nicht dem erwarteten Modul. Prüfen Sie, ob die Einstellung in der Software dem tatsächlichen Steckplatz des Moduls entspricht.
+</nierror>
+<nierror code="65702">
+Das momentan im CompactRIO-Chassis ausgeführte FPGA unterstützt nicht das RIO Scan Interface in diesem Slot.
+</nierror>
+<nierror code="65703">
+Der Zugriff auf das Modul über das Netzwerk wird nicht unterstützt.
+</nierror>
+<nierror code="65704">
+RSI-Modul-URL konnte nicht aufgelöst werden
+</nierror>
+<nierror code="65705">
+Dieses RSI-Modul akzeptiert keine Konfigurationen für diesen Kanal
+</nierror>
+<nierror code="65706">
+9205 Mindestdauer zwischen Konvertierung muss mindestens 4 µs betragen
+</nierror>
+<nierror code="65707">
+9219 Schwellwert muss zwischen 0 und 60 betragen
+</nierror>
+<nierror code="65708">
+Ungültiger Richtungs-String
+</nierror>
+<nierror code="65709">
+Stromgrenzwerte müssen zwischen 0 und 5,1 betragen
+</nierror>
+<nierror code="65710">
+Der Wert für die Überstromaktualisierungsperiode muss zwischen 2 und 255 betragen.
+</nierror>
+<nierror code="65711">
+Der Modus von Kanälen des 9219-Moduls kann nicht programmatisch geändert werden.
+</nierror>
+<nierror code="65712">
+Digitale Eingabemodule können nicht als PWM oder Zähler-Slave konfiguriert werden.
+</nierror>
+<nierror code="65713">
+Digitale Ausgabemodule können nicht als Zähler oder Quadratur-Encoder konfiguriert werden.
+</nierror>
+<nierror code="65714">
+Die Konstante "RTD A" muss zwischen 0,001 und 0,01 liegen.
+</nierror>
+<nierror code="65715">
+Die Konstante "RTD B" muss zwischen -1E-8 und -1E-6 liegen.
+</nierror>
+<nierror code="65716">
+Die Konstante "RTD C" muss zwischen -1E-12 und -1E-11 liegen.
+</nierror>
+<nierror code="65717">
+Die Konstante "RTD Ro" muss zwischen 0 und 1000 liegen.
+</nierror>
+<nierror code="65718">
+Ungültige Änderung an der Eingangskonfiguration.
+</nierror>
+<nierror code="65719">
+Der Enum-Wert liegt außerhalb des gültigen Bereichs.
+</nierror>
+<nierror code="65720">
+Diese Eigenschaft gilt nicht für das Modul oder die aktuelle Konfiguration des Moduls.
+</nierror>
+<nierror code="65721">
+Mit der Methode "Reset Counter" können nur Zähler zurückgesetzt werden, die für die Flankenzählung konfiguriert sind.
+</nierror>
+<nierror code="65722">
+Diese Methode gilt nicht für das Modul oder die aktuelle Konfiguration des Moduls.
+</nierror>
+<nierror code="65723">
+Dieses Modul kann nicht konfiguriert werden, solange sich die Controller-Engine im aktuellen Modus befindet.
+</nierror>
+<nierror code="65724">
+Digitale Sonderfunktionen werden für EtherCAT-Module nicht unterstützt.
+</nierror>
+<nierror code="65725">
+Der Wert liegt außerhalb des gültigen Bereichs.
+</nierror>
+<nierror code="65726">
+Konfigurationsinformationen für diese Eigenschaft wurden nicht gefunden.  Ggf. muss diese Eigenschaft festgelegt werden, bevor Sie gelesen werden kann.
+</nierror>
+<nierror code="65727">
+Ungültige Slotnummer
+</nierror>
+<nierror code="65728">
+Der angegebene Vorgang wird von dieser Version der EtherCAT-Software nicht unterstützt.
+</nierror>
+<nierror code="65729">
+Diese Angabe ist zur Zeit nicht verfügbar.  Wechseln Sie in den aktiven Modus oder aktualisieren Sie die Module.
+</nierror>
+<nierror code="65730">
+Eine erwartete Datei ist in Blöcken von 4 Bytes ausgerichtet. Prüfen Sie die Größe der Datei.
+</nierror>
+<nierror code="65731">
+Eine Datei wird heruntergeladen. Beim Lesen von IOV werden veraltete Daten ausgegeben. Das Schreiben von IOV kann evtl. fehlschlagen.
+</nierror>
+<nierror code="65732">
+Bitte überprüfen Sie den Modulstatus. Wenn sich das Modul im Modus "User Program Download" oder "Unprogrammed" befindet, laden Sie ein Benutzerprogramm auf das Modul herunter. Wenn sich das Modul im Modus "Firmware Download" befindet, laden Sie die Firmware auf das Modul herunter. Wenn sich das Modul im Modus "Fail-safe" befindet, beheben Sie das Problem und starten Sie das Modul erneut.
+</nierror>
+<nierror code="65733">
+Die IOV-Daten können nicht korrekt aktualisiert werden. Überprüfen Sie die Stromversorgung des Moduls.
+</nierror>
+<nierror code="65734">
+Wenn am selben Kanal ein Scan-Schreibvorgang und ein direkter Schreibvorgang durchgeführt wird, kann es zu Laufzeitproblemen kommen.
+</nierror>
+<nierror code="65735">
+Starten Sie das Modul nach den Firmware-Updates neu.
+</nierror>
+<nierror code="65736">
+Die Firmware des Moduls ist möglicherweise nicht mit dem aktuellen CompactRIO-Treiber kompatibel. Aktualisieren Sie den CompactRIO-Treiber auf die neueste Version.
+</nierror>
+<nierror code="65737">
+Das Modul befindet sich im unprogrammierten Modus. Das Lesen und Schreiben von DO ist daher aktuell nicht möglich. Bitte übertragen Sie ein Benutzerprogramm auf das Modul.
+</nierror>
+<nierror code="65738">
+Der Eingabewert liegt außerhalb des zulässigen Bereichs. Bitte stellen Sie sicher, dass der Eingabewert zwischen 0 und 0,0219116 liegt
+</nierror>
+</nidocument>
